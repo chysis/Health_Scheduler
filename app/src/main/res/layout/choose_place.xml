@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/chooseplace"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="운동 장소를 선택하세요"
+        android:textSize="25sp"
+        android:textColor="@android:color/black"
+        android:background="@android:color/holo_blue_light"
+        android:gravity="center"/>
+
+    <Button
+        android:id="@+id/hometrainingbutton"
+        android:layout_width="match_parent"
+        android:layout_height="280dp"
+        android:background="@drawable/home_revised"
+        android:text="홈 트레이닝"
+        android:textColor="@android:color/white"
+        android:textSize="35sp"
+        android:gravity="bottom"
+        android:padding="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"/>
+
+    <Button
+        android:id="@+id/gymbutton"
+        android:layout_width="match_parent"
+        android:layout_height="280dp"
+        android:text="헬스장"
+        android:textColor="@android:color/white"
+        android:textSize="35sp"
+        android:gravity="left"
+        android:padding="20dp"
+        android:background="@drawable/gym_revised"
+        />
+</LinearLayout>
