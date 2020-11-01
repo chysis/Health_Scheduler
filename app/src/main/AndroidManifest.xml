@@ -10,6 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme" >
 
+        <activity android:name=".added_list"></activity>
         <activity android:name=".exercise_dumbbell_curl"></activity>
         <activity android:name=".choose_place"></activity>
         <activity android:name=".ex_list_arm"></activity>
