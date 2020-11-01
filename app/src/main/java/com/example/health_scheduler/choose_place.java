@@ -7,18 +7,19 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class MainActivity extends AppCompatActivity {
+public class choose_place extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.choose_place);
 
-        Button button=findViewById(R.id.exercisebutton);
-        button.setOnClickListener(new View.OnClickListener(){
+        Button button1 = findViewById(R.id.hometrainingbutton);
+        Button button2 = findViewById(R.id.gymbutton);
+        button2.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v){
-                Intent intent=new Intent(getApplicationContext(), choose_place.class);
+                Intent intent = new Intent(getApplicationContext(), ex_list_arm.class);
                 startActivity(intent);
             }
         });

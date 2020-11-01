@@ -64,7 +64,7 @@
                 app:layout_constraintTop_toTopOf="parent" />
 
             <TextView
-                android:id="@+id/textView2"
+                android:id="@+id/txtDumbCurl"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="36dp"
@@ -88,7 +88,7 @@
                 app:layout_constraintTop_toTopOf="parent" />
 
             <TextView
-                android:id="@+id/textView3"
+                android:id="@+id/txtHamCurl"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="88dp"
@@ -96,7 +96,7 @@
                 android:layout_marginTop="112dp"
                 android:text="해머 컬"
                 android:textSize="25sp"
-                app:layout_constraintStart_toEndOf="@+id/textView2"
+                app:layout_constraintStart_toEndOf="@+id/txtDumbCurl"
                 app:layout_constraintTop_toTopOf="@+id/btnHamCurl" />
 
             <ImageButton
@@ -116,7 +116,7 @@
                 android:layout_height="wrap_content"
                 android:text="시험용1"
                 android:textSize="25sp"
-                app:layout_constraintStart_toEndOf="@+id/textView3"
+                app:layout_constraintStart_toEndOf="@+id/txtHamCurl"
                 app:layout_constraintTop_toBottomOf="@+id/fake1"
                 android:layout_marginStart="88dp"
                 android:layout_marginLeft="88dp"
