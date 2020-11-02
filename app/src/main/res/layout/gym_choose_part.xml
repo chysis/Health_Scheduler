@@ -27,7 +27,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="@id/txtGymPart"
-        app:layout_constraintTop_toBottomOf="@+id/txtGymPart"
+        app:layout_constraintTop_toBottomOf="@id/txtGymPart"
         app:layout_constraintVertical_bias="0.0"
         app:srcCompat="@drawable/choose_part" />
 
@@ -43,7 +43,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.163"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txtGymPart" />
+        app:layout_constraintTop_toBottomOf="@id/txtGymPart" />
 
     <Button
         android:id="@+id/btnGymShoulder"
@@ -57,7 +57,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.113"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txtGymPart" />
+        app:layout_constraintTop_toBottomOf="@id/txtGymPart" />
 
     <Button
         android:id="@+id/btnGymArm"
@@ -71,7 +71,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.863"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txtGymPart" />
+        app:layout_constraintTop_toBottomOf="@id/txtGymPart" />
 
     <Button
         android:id="@+id/btnGymCore"
@@ -86,8 +86,8 @@
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.95"
-        app:layout_constraintStart_toStartOf="@+id/txtHomePart"
-        app:layout_constraintTop_toBottomOf="@+id/txtGymPart" />
+        app:layout_constraintStart_toStartOf="@id/txtGymPart"
+        app:layout_constraintTop_toBottomOf="@id/txtGymPart" />
 
     <Button
         android:id="@+id/btnGymLeg"
@@ -101,6 +101,6 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.083"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txtGymPart" />
+        app:layout_constraintTop_toBottomOf="@id/txtGymPart" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -26,7 +26,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txtHomePart"
+        app:layout_constraintTop_toBottomOf="@id/txtHomePart"
         app:srcCompat="@drawable/choose_part" />
 
     <Button
@@ -41,7 +41,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.163"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txtHomePart" />
+        app:layout_constraintTop_toBottomOf="@id/txtHomePart" />
 
     <Button
         android:id="@+id/btnHomeShoulder"
@@ -55,7 +55,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.113"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txtHomePart" />
+        app:layout_constraintTop_toBottomOf="@id/txtHomePart" />
 
     <Button
         android:id="@+id/btnHomeArm"
@@ -69,7 +69,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.827"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txtHomePart" />
+        app:layout_constraintTop_toBottomOf="@id/txtHomePart" />
 
     <Button
         android:id="@+id/btnHomeCore"
@@ -84,8 +84,8 @@
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.924"
-        app:layout_constraintStart_toStartOf="@+id/txtHomePart"
-        app:layout_constraintTop_toBottomOf="@+id/txtHomePart" />
+        app:layout_constraintStart_toStartOf="@id/txtHomePart"
+        app:layout_constraintTop_toBottomOf="@id/txtHomePart" />
 
     <Button
         android:id="@+id/btnHomeLeg"
@@ -99,5 +99,5 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.083"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txtHomePart" />
+        app:layout_constraintTop_toBottomOf="@id/txtHomePart" />
 </androidx.constraintlayout.widget.ConstraintLayout>

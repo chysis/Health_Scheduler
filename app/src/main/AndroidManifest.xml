@@ -12,6 +12,7 @@
 
         <activity android:name=".added_list"></activity>
         <activity android:name=".ex_dumbbell_curl"></activity>
+        <activity android:name=".gym_choose_part"></activity>
         <activity android:name=".home_choose_part"></activity>
         <activity android:name=".choose_place"></activity>
         <activity android:name=".ex_list_arm"></activity>
