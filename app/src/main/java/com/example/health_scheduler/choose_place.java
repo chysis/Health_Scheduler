@@ -1,11 +1,11 @@
 package com.example.health_scheduler;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 public class choose_place extends AppCompatActivity {
 
@@ -16,11 +16,20 @@ public class choose_place extends AppCompatActivity {
 
         Button button1 = findViewById(R.id.hometrainingbutton);
         Button button2 = findViewById(R.id.gymbutton);
+
+        button1.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View v){
+                Intent intent = new Intent(getApplicationContext(), home_choose_part.class);
+                startActivity(intent);
+            }
+        });
+
         button2.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v){
-                Intent intent = new Intent(getApplicationContext(), ex_list_arm.class);
-                startActivity(intent);
+                Intent intent1 = new Intent(getApplicationContext(), gym_choose_part.class);
+                startActivity(intent1);
             }
         });
     }

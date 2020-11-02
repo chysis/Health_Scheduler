@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/txtHomePart"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="홈 트레이닝 - 운동 부위를 선택하세요"
+        android:textSize="25sp"
+        android:textColor="@android:color/black"
+        android:gravity="center"
+        android:background="@android:color/holo_blue_light"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/homeChoosePart"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtHomePart"
+        app:srcCompat="@drawable/choose_part" />
+
+    <Button
+        android:id="@+id/btnHomeChest"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="256dp"
+        android:text="가슴"
+        android:textSize="20sp"
+        android:textColor="@android:color/black"
+        android:background="@drawable/linear_border_part_btn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.163"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtHomePart" />
+
+    <Button
+        android:id="@+id/btnHomeShoulder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="84dp"
+        android:text="어깨"
+        android:textSize="20sp"
+        android:textColor="@android:color/black"
+        android:background="@drawable/linear_border_part_btn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.113"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtHomePart" />
+
+    <Button
+        android:id="@+id/btnHomeArm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="192dp"
+        android:text="팔"
+        android:textSize="20sp"
+        android:textColor="@android:color/black"
+        android:background="@drawable/linear_border_part_btn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.827"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtHomePart" />
+
+    <Button
+        android:id="@+id/btnHomeCore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="296dp"
+        android:layout_marginEnd="72dp"
+        android:layout_marginRight="72dp"
+        android:background="@drawable/linear_border_part_btn"
+        android:text="코어"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.924"
+        app:layout_constraintStart_toStartOf="@+id/txtHomePart"
+        app:layout_constraintTop_toBottomOf="@+id/txtHomePart" />
+
+    <Button
+        android:id="@+id/btnHomeLeg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="412dp"
+        android:text="다리"
+        android:textSize="20sp"
+        android:textColor="@android:color/black"
+        android:background="@drawable/linear_border_part_btn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.083"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtHomePart" />
+</androidx.constraintlayout.widget.ConstraintLayout>
