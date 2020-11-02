@@ -1,28 +1,28 @@
 package com.example.health_scheduler;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.os.Bundle;
 import android.text.method.ScrollingMovementMethod;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
+import com.google.android.youtube.player.YouTubeBaseActivity;
 import com.google.android.youtube.player.YouTubeInitializationResult;
 import com.google.android.youtube.player.YouTubePlayer;
 import com.google.android.youtube.player.YouTubePlayerView;
 
-public class exercise_dumbbell_curl extends AppCompatActivity {
+public class ex_dumbbell_curl extends YouTubeBaseActivity {
     YouTubePlayerView playerView;
     YouTubePlayer player;
 
     private static String API_KEY="AIzaSyBrEvSjzDIdr18Sy1e3E508vpYS8FYMiUo";
-    private static String videoId="zC3nLlEvin4";
+    private static String videoId="XE_pHwbst04";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.exercise_dumbbell_curl);
+        setContentView(R.layout.ex_dumbbell_curl);
 
         TextView textView = findViewById(R.id.howToDumbCurl);
         textView.setMovementMethod(ScrollingMovementMethod.getInstance());
@@ -49,7 +49,8 @@ public class exercise_dumbbell_curl extends AppCompatActivity {
                     public void onLoading() {}
 
                     @Override
-                    public void onLoaded(String s) {
+                    public void onLoaded(String id) {
+                        Log.d("PlayerView", "onLoaded 호출됨: " + id);
                         player.play();
                     }
 
