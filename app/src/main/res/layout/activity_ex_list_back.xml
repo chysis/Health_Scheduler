@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ex_list_chest">
+    tools:context=".ex_list_back">
 
 
     <TextView
@@ -13,7 +13,7 @@
         android:layout_height="100dp"
         android:background="@android:color/holo_blue_light"
         android:gravity="center"
-        android:text="헬스장 - 가슴 운동"
+        android:text="헬스장 - 등 운동"
         android:textColor="@android:color/black"
         android:textSize="25sp"
         app:layout_constraintTop_toTopOf="parent" />
@@ -59,7 +59,7 @@
             android:layout_height="match_parent">
 
             <ImageButton
-                android:id="@+id/btnBenchPress"
+                android:id="@+id/btnBenchPull"
                 android:layout_width="150dp"
                 android:layout_height="100dp"
                 android:padding="0dp"
@@ -69,22 +69,22 @@
                 app:layout_constraintTop_toTopOf="parent" />
 
             <TextView
-                android:id="@+id/txtBenchPress"
+                android:id="@+id/txtBenchPull"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="16dp"
                 android:layout_marginLeft="16dp"
                 android:layout_marginTop="0dp"
                 android:gravity="center"
-                android:text="Bench Press"
+                android:text="Bench Pull"
                 android:textSize="18sp"
                 app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toEndOf="@+id/btnBenchPress"
-                app:layout_constraintStart_toStartOf="@+id/btnBenchPress"
-                app:layout_constraintTop_toBottomOf="@+id/btnBenchPress" />
+                app:layout_constraintEnd_toEndOf="@+id/btnBenchPull"
+                app:layout_constraintStart_toStartOf="@+id/btnBenchPull"
+                app:layout_constraintTop_toBottomOf="@+id/btnBenchPull" />
 
             <ImageButton
-                android:id="@+id/btnBenchThrow"
+                android:id="@+id/btnBentOverBarbellRow"
                 android:layout_width="150dp"
                 android:layout_height="100dp"
                 android:layout_marginStart="16dp"
@@ -92,28 +92,28 @@
                 android:padding="0dp"
                 android:scaleType="centerCrop"
                 android:src="@drawable/hammer_curl"
-                app:layout_constraintStart_toEndOf="@+id/btnBenchPress"
+                app:layout_constraintStart_toEndOf="@+id/btnBenchPull"
                 app:layout_constraintTop_toTopOf="parent" />
 
 
             <TextView
-                android:id="@+id/txtBenchThrow"
+                android:id="@+id/txtBentOverBarbellRow"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="16dp"
                 android:layout_marginLeft="16dp"
                 android:layout_marginTop="0dp"
                 android:gravity="center"
-                android:text="BenchThrow"
+                android:text="Bent Over\nBarbell Row"
                 android:textSize="18sp"
                 app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toEndOf="@+id/btnBenchThrow"
-                app:layout_constraintStart_toStartOf="@+id/btnBenchThrow"
-                app:layout_constraintTop_toBottomOf="@+id/btnBenchThrow" />
+                app:layout_constraintEnd_toEndOf="@+id/btnBentOverBarbellRow"
+                app:layout_constraintStart_toStartOf="@+id/btnBentOverBarbellRow"
+                app:layout_constraintTop_toBottomOf="@+id/btnBentOverBarbellRow" />
 
 
             <ImageButton
-                android:id="@+id/btnChestPress"
+                android:id="@+id/btnChinUp"
                 android:layout_width="150dp"
                 android:layout_height="100dp"
                 android:layout_marginStart="16dp"
@@ -121,27 +121,27 @@
                 android:padding="0dp"
                 android:scaleType="centerCrop"
                 android:src="@drawable/hammer_curl"
-                app:layout_constraintStart_toEndOf="@+id/btnBenchThrow"
+                app:layout_constraintStart_toEndOf="@+id/btnBentOverBarbellRow"
                 app:layout_constraintTop_toTopOf="parent" />
 
 
             <TextView
-                android:id="@+id/txtChestPress"
+                android:id="@+id/txtChinUp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="16dp"
                 android:layout_marginLeft="16dp"
                 android:layout_marginTop="0dp"
                 android:gravity="center"
-                android:text="ChestPress"
+                android:text="Chin Up"
                 android:textSize="18sp"
                 app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toEndOf="@+id/btnChestPress"
-                app:layout_constraintStart_toStartOf="@+id/btnChestPress"
-                app:layout_constraintTop_toBottomOf="@+id/btnChestPress" />
+                app:layout_constraintEnd_toEndOf="@+id/btnChinUp"
+                app:layout_constraintStart_toStartOf="@+id/btnChinUp"
+                app:layout_constraintTop_toBottomOf="@+id/btnChinUp" />
 
             <ImageButton
-                android:id="@+id/btnChestThrow"
+                android:id="@+id/btnPullUp"
                 android:layout_width="150dp"
                 android:layout_height="100dp"
                 android:layout_marginStart="16dp"
@@ -149,27 +149,27 @@
                 android:padding="0dp"
                 android:scaleType="centerCrop"
                 android:src="@drawable/hammer_curl"
-                app:layout_constraintStart_toEndOf="@+id/btnChestPress"
+                app:layout_constraintStart_toEndOf="@+id/btnChinUp"
                 app:layout_constraintTop_toTopOf="parent" />
 
 
             <TextView
-                android:id="@+id/txtChestThrow"
+                android:id="@+id/txtPullUp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="16dp"
                 android:layout_marginLeft="16dp"
                 android:layout_marginTop="0dp"
                 android:gravity="center"
-                android:text="ChestThrow"
+                android:text="Pull Up"
                 android:textSize="18sp"
                 app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toEndOf="@+id/btnChestThrow"
-                app:layout_constraintStart_toStartOf="@+id/btnChestThrow"
-                app:layout_constraintTop_toBottomOf="@+id/btnChestThrow" />
+                app:layout_constraintEnd_toEndOf="@+id/btnPullUp"
+                app:layout_constraintStart_toStartOf="@+id/btnPullUp"
+                app:layout_constraintTop_toBottomOf="@+id/btnPullUp" />
 
             <ImageButton
-                android:id="@+id/btnDeclineBenchPress"
+                android:id="@+id/btnLatPulldown"
                 android:layout_width="150dp"
                 android:layout_height="100dp"
                 android:layout_marginStart="16dp"
@@ -177,26 +177,26 @@
                 android:padding="0dp"
                 android:scaleType="centerCrop"
                 android:src="@drawable/hammer_curl"
-                app:layout_constraintStart_toEndOf="@+id/btnChestThrow"
+                app:layout_constraintStart_toEndOf="@+id/btnPullUp"
                 app:layout_constraintTop_toTopOf="parent" />
 
             <TextView
-                android:id="@+id/txtDeclineBenchPress"
+                android:id="@+id/txtLatPulldown"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="16dp"
                 android:layout_marginLeft="16dp"
                 android:layout_marginTop="0dp"
                 android:gravity="center"
-                android:text="ChestThrow"
+                android:text="Lat Pulldown"
                 android:textSize="18sp"
                 app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toEndOf="@+id/btnDeclineBenchPress"
-                app:layout_constraintStart_toStartOf="@+id/btnDeclineBenchPress"
-                app:layout_constraintTop_toBottomOf="@+id/btnDeclineBenchPress" />
+                app:layout_constraintEnd_toEndOf="@+id/btnLatPulldown"
+                app:layout_constraintStart_toStartOf="@+id/btnLatPulldown"
+                app:layout_constraintTop_toBottomOf="@+id/btnLatPulldown" />
 
             <ImageButton
-                android:id="@+id/btnInclineBenchPress"
+                android:id="@+id/btnSeatedRow"
                 android:layout_width="150dp"
                 android:layout_height="100dp"
                 android:layout_marginStart="16dp"
@@ -204,23 +204,50 @@
                 android:padding="0dp"
                 android:scaleType="centerCrop"
                 android:src="@drawable/hammer_curl"
-                app:layout_constraintStart_toEndOf="@+id/btnDeclineBenchPress"
+                app:layout_constraintStart_toEndOf="@+id/btnLatPulldown"
                 app:layout_constraintTop_toTopOf="parent" />
 
             <TextView
-                android:id="@+id/txtInclineBenchPress"
+                android:id="@+id/txtSeatedRow"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="16dp"
                 android:layout_marginLeft="16dp"
                 android:layout_marginTop="0dp"
                 android:gravity="center"
-                android:text="ChestThrow"
+                android:text="Seated Row"
                 android:textSize="18sp"
                 app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toEndOf="@+id/btnInclineBenchPress"
-                app:layout_constraintStart_toStartOf="@+id/btnInclineBenchPress"
-                app:layout_constraintTop_toBottomOf="@+id/btnInclineBenchPress" />
+                app:layout_constraintEnd_toEndOf="@+id/btnSeatedRow"
+                app:layout_constraintStart_toStartOf="@+id/btnSeatedRow"
+                app:layout_constraintTop_toBottomOf="@+id/btnSeatedRow" />
+
+            <ImageButton
+                android:id="@+id/btnDbRow"
+                android:layout_width="150dp"
+                android:layout_height="100dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginLeft="16dp"
+                android:padding="0dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/hammer_curl"
+                app:layout_constraintStart_toEndOf="@+id/btnSeatedRow"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/txtDbRow"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="0dp"
+                android:gravity="center"
+                android:text="Dumbbell Row"
+                android:textSize="18sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="@+id/btnDbRow"
+                app:layout_constraintStart_toStartOf="@+id/btnDbRow"
+                app:layout_constraintTop_toBottomOf="@+id/btnDbRow" />
 
 
 
@@ -233,6 +260,9 @@
 
 
     </HorizontalScrollView>
+
+
+
 
 
 
