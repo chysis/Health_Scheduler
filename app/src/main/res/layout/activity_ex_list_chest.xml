@@ -113,7 +113,7 @@
 
 
             <ImageButton
-                android:id="@+id/btnChestPress"
+                android:id="@+id/btnChestPress_db"
                 android:layout_width="150dp"
                 android:layout_height="100dp"
                 android:layout_marginStart="16dp"
@@ -126,22 +126,22 @@
 
 
             <TextView
-                android:id="@+id/txtChestPress"
+                android:id="@+id/txtChestPress_db"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="16dp"
                 android:layout_marginLeft="16dp"
                 android:layout_marginTop="0dp"
                 android:gravity="center"
-                android:text="ChestPress"
+                android:text="Chest Press (덤벨)"
                 android:textSize="18sp"
                 app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toEndOf="@+id/btnChestPress"
-                app:layout_constraintStart_toStartOf="@+id/btnChestPress"
-                app:layout_constraintTop_toBottomOf="@+id/btnChestPress" />
+                app:layout_constraintEnd_toEndOf="@+id/btnChestPress_db"
+                app:layout_constraintStart_toStartOf="@+id/btnChestPress_db"
+                app:layout_constraintTop_toBottomOf="@+id/btnChestPress_db" />
 
             <ImageButton
-                android:id="@+id/btnChestThrow"
+                android:id="@+id/btnChestPress_mc"
                 android:layout_width="150dp"
                 android:layout_height="100dp"
                 android:layout_marginStart="16dp"
@@ -149,24 +149,24 @@
                 android:padding="0dp"
                 android:scaleType="centerCrop"
                 android:src="@drawable/hammer_curl"
-                app:layout_constraintStart_toEndOf="@+id/btnChestPress"
+                app:layout_constraintStart_toEndOf="@+id/btnChestPress_db"
                 app:layout_constraintTop_toTopOf="parent" />
 
 
             <TextView
-                android:id="@+id/txtChestThrow"
+                android:id="@+id/txtChestPress_mc"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="16dp"
                 android:layout_marginLeft="16dp"
                 android:layout_marginTop="0dp"
                 android:gravity="center"
-                android:text="ChestThrow"
+                android:text="Chest Press(머신)"
                 android:textSize="18sp"
                 app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toEndOf="@+id/btnChestThrow"
-                app:layout_constraintStart_toStartOf="@+id/btnChestThrow"
-                app:layout_constraintTop_toBottomOf="@+id/btnChestThrow" />
+                app:layout_constraintEnd_toEndOf="@+id/btnChestPress_mc"
+                app:layout_constraintStart_toStartOf="@+id/btnChestPress_mc"
+                app:layout_constraintTop_toBottomOf="@+id/btnChestPress_mc" />
 
             <ImageButton
                 android:id="@+id/btnDeclineBenchPress"
@@ -177,7 +177,7 @@
                 android:padding="0dp"
                 android:scaleType="centerCrop"
                 android:src="@drawable/hammer_curl"
-                app:layout_constraintStart_toEndOf="@+id/btnChestThrow"
+                app:layout_constraintStart_toEndOf="@+id/btnChestPress_mc"
                 app:layout_constraintTop_toTopOf="parent" />
 
             <TextView
