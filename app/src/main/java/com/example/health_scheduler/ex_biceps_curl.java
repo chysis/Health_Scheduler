@@ -12,24 +12,24 @@ import com.google.android.youtube.player.YouTubeInitializationResult;
 import com.google.android.youtube.player.YouTubePlayer;
 import com.google.android.youtube.player.YouTubePlayerView;
 
-public class ex_bench_pull extends YouTubeBaseActivity {
+public class ex_biceps_curl extends YouTubeBaseActivity {
     YouTubePlayerView playerView;
     YouTubePlayer player;
 
     private static String API_KEY="AIzaSyBrEvSjzDIdr18Sy1e3E508vpYS8FYMiUo";
-    private static String videoId="CL-lV9E94Fs";
+    private static String videoId="ecEm4AQplVY";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.ex_bench_pull);
+        setContentView(R.layout.ex_biceps_curl);
 
-        TextView textView = findViewById(R.id.howToBenchPull);
+        TextView textView = findViewById(R.id.howToBicepsCurl);
         textView.setMovementMethod(ScrollingMovementMethod.getInstance());
 
         initPlayer();
 
-        Button button = findViewById(R.id.playBenchPullVideo);
+        Button button = findViewById(R.id.playBicepsCurlVideo);
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -38,7 +38,7 @@ public class ex_bench_pull extends YouTubeBaseActivity {
         });
     }
     public void initPlayer(){
-        playerView = findViewById(R.id.benchPullView);
+        playerView = findViewById(R.id.bicepsCurlView);
         playerView.initialize(API_KEY, new YouTubePlayer.OnInitializedListener() {
             @Override
             public void onInitializationSuccess(YouTubePlayer.Provider provider, YouTubePlayer youTubePlayer, boolean b) {

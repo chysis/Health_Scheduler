@@ -13,7 +13,7 @@
         android:layout_height="100dp"
         android:background="@android:color/holo_blue_light"
         android:gravity="center"
-        android:text="Bench Pull (벤치 풀)"
+        android:text="트라이셉스 익스텐션 (머신)"
         android:textColor="@android:color/black"
         android:textSize="25sp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -22,7 +22,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <com.google.android.youtube.player.YouTubePlayerView
-        android:id="@+id/benchPullView"
+        android:id="@+id/tricepsExtensionView_mc"
         android:layout_width="match_parent"
         android:layout_height="300dp"
         android:layout_marginTop="88dp"
@@ -33,7 +33,7 @@
     </com.google.android.youtube.player.YouTubePlayerView>
 
     <Button
-        android:id="@+id/playBenchPullVideo"
+        android:id="@+id/playTricepsExtensionVideo_mc"
         android:layout_width="100dp"
         android:layout_height="60dp"
         android:layout_marginStart="10dp"
@@ -43,12 +43,12 @@
         android:text="재생"
         android:textColor="@android:color/black"
         android:textSize="20sp"
-        app:layout_constraintBottom_toTopOf="@+id/benchPullView"
+        app:layout_constraintBottom_toTopOf="@+id/tricepsExtensionView_mc"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView2" />
 
     <Button
-        android:id="@+id/btnBenchPullAdd"
+        android:id="@+id/btnTricepsExtensionAdd_mc"
         android:layout_width="100dp"
         android:layout_height="60dp"
         android:layout_marginTop="20dp"
@@ -59,25 +59,23 @@
         android:text="담기"
         android:textColor="@android:color/black"
         android:textSize="20sp"
-        app:layout_constraintBottom_toTopOf="@+id/benchPullView"
+        app:layout_constraintBottom_toTopOf="@+id/tricepsExtensionView_mc"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView2" />
 
     <TextView
-        android:id="@+id/howToBenchPull"
+        android:id="@+id/howToTricepsExtension_mc"
         android:layout_width="match_parent"
         android:layout_height="220dp"
-        android:text="1. 벤치 밑에 바벨을 둔 채로 앞으로 눕는다.
-\n\n2. 바벨을 어깨보다 좀 더 넓게 잡는다.
-\n\n3. 날개뼈를 집어넣고, 바벨을 가슴쪽으로 당긴다.
-\n\n4. 바벨을 내릴 때 손을 놓지 않고 잡고 있어야 한다."
+        android:text="* 트라이셉스 익스텐션 동작을 돕는 케이블 기구를 사용합니다.
+        \n\n위의 동영상을 통해 운동의 올바른 방법을 익혀보세요."
         android:textColor="@android:color/black"
         android:textSize="20sp"
         android:padding="5dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/benchPullView"
+        app:layout_constraintTop_toBottomOf="@+id/tricepsExtensionView_mc"
         android:scrollbars="vertical"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
