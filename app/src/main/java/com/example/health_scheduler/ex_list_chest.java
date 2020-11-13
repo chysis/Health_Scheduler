@@ -61,7 +61,7 @@ public class ex_list_chest extends AppCompatActivity {
         }
     });
 
-    button5.setOnClickListener(new View.OnClickListener() {
+    button6.setOnClickListener(new View.OnClickListener() {
         @Override
         public void onClick(View v) {
             Intent intent6 = new Intent(getApplicationContext(), ex_incline_bench_press.class);
