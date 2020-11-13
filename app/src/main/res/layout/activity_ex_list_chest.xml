@@ -188,7 +188,7 @@
                 android:layout_marginLeft="16dp"
                 android:layout_marginTop="0dp"
                 android:gravity="center"
-                android:text="ChestThrow"
+                android:text="Decline Bench Press"
                 android:textSize="18sp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="@+id/btnDeclineBenchPress"
@@ -215,26 +215,15 @@
                 android:layout_marginLeft="16dp"
                 android:layout_marginTop="0dp"
                 android:gravity="center"
-                android:text="ChestThrow"
+                android:text="Incline Bench Press"
                 android:textSize="18sp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="@+id/btnInclineBenchPress"
                 app:layout_constraintStart_toStartOf="@+id/btnInclineBenchPress"
                 app:layout_constraintTop_toBottomOf="@+id/btnInclineBenchPress" />
 
-
-
-
-
-
-
-
         </androidx.constraintlayout.widget.ConstraintLayout>
 
-
     </HorizontalScrollView>
-
-
-
 
 </androidx.constraintlayout.widget.ConstraintLayout>
