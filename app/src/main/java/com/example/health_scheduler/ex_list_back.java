@@ -25,7 +25,7 @@ public class ex_list_back extends AppCompatActivity {
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(getApplicationContext(), ex_bentover_barbell_row.class);
+                Intent intent = new Intent(getApplicationContext(), ex_bench_pull.class);
                 startActivity(intent);
             }
         });
@@ -33,7 +33,7 @@ public class ex_list_back extends AppCompatActivity {
         button2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent2 = new Intent(getApplicationContext(), ex_chin_up.class);
+                Intent intent2 = new Intent(getApplicationContext(), ex_bentover_barbell_row.class);
                 startActivity(intent2);
             }
         });
@@ -41,7 +41,7 @@ public class ex_list_back extends AppCompatActivity {
         button3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent3 = new Intent(getApplicationContext(), ex_pull_up.class);
+                Intent intent3 = new Intent(getApplicationContext(), ex_chin_up.class);
                 startActivity(intent3);
             }
         });
@@ -49,7 +49,7 @@ public class ex_list_back extends AppCompatActivity {
         button4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent4 = new Intent(getApplicationContext(), ex_lat_pull_down.class);
+                Intent intent4 = new Intent(getApplicationContext(), ex_pull_up.class);
                 startActivity(intent4);
             }
         });
@@ -57,7 +57,7 @@ public class ex_list_back extends AppCompatActivity {
         button5.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent5 = new Intent(getApplicationContext(), ex_seated_row.class);
+                Intent intent5 = new Intent(getApplicationContext(), ex_lat_pull_down.class);
                 startActivity(intent5);
             }
         });
@@ -65,7 +65,7 @@ public class ex_list_back extends AppCompatActivity {
         button6.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent6 = new Intent(getApplicationContext(), ex_dumbbell_row.class);
+                Intent intent6 = new Intent(getApplicationContext(), ex_seated_row.class);
                 startActivity(intent6);
             }
         });
@@ -73,11 +73,9 @@ public class ex_list_back extends AppCompatActivity {
         button7.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent7 = new Intent(getApplicationContext(), ex_bench_pull.class);
+                Intent intent7 = new Intent(getApplicationContext(), ex_dumbbell_row.class);
                 startActivity(intent7);
             }
         });
-
-        // button2 ~ button 7 TODO
     }
 }

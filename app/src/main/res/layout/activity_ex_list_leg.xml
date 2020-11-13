@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ex_list_leg">
+
+
+    <TextView
+        android:id="@+id/chooseplace"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@android:color/holo_blue_light"
+        android:gravity="center"
+        android:text="헬스장 - 다리 운동"
+        android:textColor="@android:color/black"
+        android:textSize="25sp"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/addedList"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_marginTop="124dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginRight="24dp"
+        android:text="담은 리스트"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <HorizontalScrollView
+        android:id="@+id/horizontalScrollView"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.414">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+            <ImageButton
+                android:id="@+id/btnLegCurl"
+                android:layout_width="150dp"
+                android:layout_height="100dp"
+                android:padding="0dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/dumbbell_curl"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/txtLegCurl"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="0dp"
+                android:gravity="center"
+                android:text="Leg Curl"
+                android:textSize="18sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="@+id/btnLegCurl"
+                app:layout_constraintStart_toStartOf="@+id/btnLegCurl"
+                app:layout_constraintTop_toBottomOf="@+id/btnLegCurl" />
+
+            <ImageButton
+                android:id="@+id/btnLegPress"
+                android:layout_width="150dp"
+                android:layout_height="100dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginLeft="16dp"
+                android:padding="0dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/hammer_curl"
+                app:layout_constraintStart_toEndOf="@+id/btnLegCurl"
+                app:layout_constraintTop_toTopOf="parent" />
+
+
+            <TextView
+                android:id="@+id/txtLegPress"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="0dp"
+                android:gravity="center"
+                android:text="Leg Press"
+                android:textSize="18sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="@+id/btnLegPress"
+                app:layout_constraintStart_toStartOf="@+id/btnLegPress"
+                app:layout_constraintTop_toBottomOf="@+id/btnLegPress" />
+
+
+            <ImageButton
+                android:id="@+id/btnBarbellSquat"
+                android:layout_width="150dp"
+                android:layout_height="100dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginLeft="16dp"
+                android:padding="0dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/hammer_curl"
+                app:layout_constraintStart_toEndOf="@+id/btnLegPress"
+                app:layout_constraintTop_toTopOf="parent" />
+
+
+            <TextView
+                android:id="@+id/txtBarbellSquat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="0dp"
+                android:gravity="center"
+                android:text="Barbell Squat"
+                android:textSize="18sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="@+id/btnBarbellSquat"
+                app:layout_constraintStart_toStartOf="@+id/btnBarbellSquat"
+                app:layout_constraintTop_toBottomOf="@+id/btnBarbellSquat" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    </HorizontalScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
