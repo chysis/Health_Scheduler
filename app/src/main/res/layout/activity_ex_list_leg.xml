@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ex_list_core">
+    tools:context=".ex_list_leg">
 
 
     <TextView
@@ -13,7 +13,7 @@
         android:layout_height="100dp"
         android:background="@android:color/holo_blue_light"
         android:gravity="center"
-        android:text="헬스장 - 코어 운동"
+        android:text="헬스장 - 다리 운동"
         android:textColor="@android:color/black"
         android:textSize="25sp"
         app:layout_constraintTop_toTopOf="parent" />
@@ -47,7 +47,7 @@
             android:layout_height="match_parent">
 
             <ImageButton
-                android:id="@+id/btnDeadlift"
+                android:id="@+id/btnLegCurl"
                 android:layout_width="150dp"
                 android:layout_height="100dp"
                 android:padding="0dp"
@@ -57,22 +57,22 @@
                 app:layout_constraintTop_toTopOf="parent" />
 
             <TextView
-                android:id="@+id/txtDeadlift"
+                android:id="@+id/txtLegCurl"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="16dp"
                 android:layout_marginLeft="16dp"
                 android:layout_marginTop="0dp"
                 android:gravity="center"
-                android:text="Deadlift"
+                android:text="Leg Curl"
                 android:textSize="18sp"
                 app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toEndOf="@+id/btnDeadlift"
-                app:layout_constraintStart_toStartOf="@+id/btnDeadlift"
-                app:layout_constraintTop_toBottomOf="@+id/btnDeadlift" />
+                app:layout_constraintEnd_toEndOf="@+id/btnLegCurl"
+                app:layout_constraintStart_toStartOf="@+id/btnLegCurl"
+                app:layout_constraintTop_toBottomOf="@+id/btnLegCurl" />
 
             <ImageButton
-                android:id="@+id/btnHangingKneeRaise"
+                android:id="@+id/btnLegPress"
                 android:layout_width="150dp"
                 android:layout_height="100dp"
                 android:layout_marginStart="16dp"
@@ -80,40 +80,59 @@
                 android:padding="0dp"
                 android:scaleType="centerCrop"
                 android:src="@drawable/hammer_curl"
-                app:layout_constraintStart_toEndOf="@+id/btnDeadlift"
+                app:layout_constraintStart_toEndOf="@+id/btnLegCurl"
                 app:layout_constraintTop_toTopOf="parent" />
 
 
             <TextView
-                android:id="@+id/txtHangingKneeRaise"
+                android:id="@+id/txtLegPress"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="16dp"
                 android:layout_marginLeft="16dp"
                 android:layout_marginTop="0dp"
                 android:gravity="center"
-                android:text="Hanging Knee Raise"
+                android:text="Leg Press"
                 android:textSize="18sp"
                 app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toEndOf="@+id/btnHangingKneeRaise"
-                app:layout_constraintStart_toStartOf="@+id/btnHangingKneeRaise"
-                app:layout_constraintTop_toBottomOf="@+id/btnHangingKneeRaise" />
+                app:layout_constraintEnd_toEndOf="@+id/btnLegPress"
+                app:layout_constraintStart_toStartOf="@+id/btnLegPress"
+                app:layout_constraintTop_toBottomOf="@+id/btnLegPress" />
 
 
+            <ImageButton
+                android:id="@+id/btnBarbellSquat"
+                android:layout_width="150dp"
+                android:layout_height="100dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginLeft="16dp"
+                android:padding="0dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/hammer_curl"
+                app:layout_constraintStart_toEndOf="@+id/btnLegPress"
+                app:layout_constraintTop_toTopOf="parent" />
 
+
+            <TextView
+                android:id="@+id/txtBarbellSquat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="0dp"
+                android:gravity="center"
+                android:text="Barbell Squat"
+                android:textSize="18sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="@+id/btnBarbellSquat"
+                app:layout_constraintStart_toStartOf="@+id/btnBarbellSquat"
+                app:layout_constraintTop_toBottomOf="@+id/btnBarbellSquat" />
 
 
         </androidx.constraintlayout.widget.ConstraintLayout>
 
 
     </HorizontalScrollView>
-
-
-
-
-
-
-
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
