@@ -11,7 +11,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".ex_deadlift"></activity>
+        <activity android:name=".ex_leg_press"></activity>
+        <activity android:name=".ex_leg_curl" />
+        <activity android:name=".ex_hanging_knee_raise" />
+        <activity android:name=".ex_deadlift" />
         <activity android:name=".ex_list_arm" />
         <activity android:name=".ex_list_core" />
         <activity android:name=".ex_list_back" />
