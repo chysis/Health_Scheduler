@@ -41,6 +41,22 @@ public class gym_choose_part extends AppCompatActivity {
             }
         });
 
+        button4.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View v){
+                Intent intent4 = new Intent(getApplicationContext(), ex_list_core.class);
+                startActivity(intent4);
+            }
+        });
+
+        button5.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View v){
+                Intent intent5 = new Intent(getApplicationContext(), ex_list_leg.class);
+                startActivity(intent5);
+            }
+        });
+
         button6.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v){
