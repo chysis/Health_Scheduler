@@ -1,7 +1,5 @@
 package com.example.health_scheduler;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.os.Bundle;
 import android.text.method.ScrollingMovementMethod;
 import android.util.Log;
@@ -9,11 +7,12 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
+import com.google.android.youtube.player.YouTubeBaseActivity;
 import com.google.android.youtube.player.YouTubeInitializationResult;
 import com.google.android.youtube.player.YouTubePlayer;
 import com.google.android.youtube.player.YouTubePlayerView;
 
-public class ex_deadlift extends AppCompatActivity {
+public class ex_deadlift extends YouTubeBaseActivity {
     YouTubePlayerView playerView;
     YouTubePlayer player;
 
@@ -23,7 +22,7 @@ public class ex_deadlift extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_ex_deadlift);
+        setContentView(R.layout.ex_deadlift);
 
         TextView textView = findViewById(R.id.howToDeadlift);
         textView.setMovementMethod(ScrollingMovementMethod.getInstance());
