@@ -11,7 +11,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".ex_barbell_squat"/>
+        <activity android:name=".home_ex_list_chest"></activity>
+        <activity android:name=".home_ex_list_shoulder" />
+        <activity android:name=".home_ex_list_arm" />
+        <activity android:name=".ex_barbell_squat" />
         <activity android:name=".ex_leg_press" />
         <activity android:name=".ex_leg_curl" />
         <activity android:name=".ex_hanging_knee_raise" />
@@ -20,7 +23,7 @@
         <activity android:name=".ex_list_core" />
         <activity android:name=".ex_list_back" />
         <activity android:name=".ex_list_chest" />
-        <activity android:name=".ex_list_leg"/>
+        <activity android:name=".ex_list_leg" />
         <activity android:name=".ex_list_shoulder" />
         <activity android:name=".added_list" />
         <activity android:name=".ex_bentover_barbell_row" />
@@ -31,8 +34,8 @@
         <activity android:name=".ex_incline_bench_press" />
         <activity android:name=".ex_lat_pull_down" />
         <activity android:name=".ex_decline_bench_press" />
-        <activity android:name=".ex_dumbbell_diagonal_raise"/>
-        <activity android:name=".ex_dumbbell_front_raise"/>
+        <activity android:name=".ex_dumbbell_diagonal_raise" />
+        <activity android:name=".ex_dumbbell_front_raise" />
         <activity android:name=".ex_chin_up" />
         <activity android:name=".ex_dumbbell_row" />
         <activity android:name=".ex_lateral_raise" />
