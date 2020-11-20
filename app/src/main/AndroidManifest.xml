@@ -11,7 +11,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".ex_barbell_squat"></activity>
+        <activity android:name=".ex_barbell_squat"/>
         <activity android:name=".ex_leg_press" />
         <activity android:name=".ex_leg_curl" />
         <activity android:name=".ex_hanging_knee_raise" />
