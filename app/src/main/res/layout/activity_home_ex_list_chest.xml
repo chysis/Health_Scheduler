@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".home_ex_list_chest">
+    tools:context=".ex_list_chest">
+
 
     <TextView
         android:id="@+id/chooseplace"
@@ -12,7 +13,7 @@
         android:layout_height="100dp"
         android:background="@android:color/holo_blue_light"
         android:gravity="center"
-        android:text="헬스장 - 가슴 운동"
+        android:text="홈 트레이닝 - 가슴 운동"
         android:textColor="@android:color/black"
         android:textSize="25sp"
         app:layout_constraintTop_toTopOf="parent" />
@@ -57,48 +58,15 @@
             android:layout_width="wrap_content"
             android:layout_height="match_parent">
 
-
-
-            <ImageButton
-                android:id="@+id/btnChestPress_db"
-                android:layout_width="150dp"
-                android:layout_height="100dp"
-                android:layout_marginStart="16dp"
-                android:layout_marginLeft="16dp"
-                android:padding="0dp"
-                android:scaleType="centerCrop"
-                android:src="@drawable/hammer_curl"
-                app:layout_constraintStart_toEndOf="@+id/btnBenchThrow"
-                app:layout_constraintTop_toTopOf="parent" />
-
-
-            <TextView
-                android:id="@+id/txtChestPress_db"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="16dp"
-                android:layout_marginLeft="16dp"
-                android:layout_marginTop="0dp"
-                android:gravity="center"
-                android:text="Chest Press (덤벨)"
-                android:textSize="18sp"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toEndOf="@+id/btnChestPress_db"
-                app:layout_constraintStart_toStartOf="@+id/btnChestPress_db"
-                app:layout_constraintTop_toBottomOf="@+id/btnChestPress_db" />
-
             <ImageButton
                 android:id="@+id/btnDumbbellFly"
                 android:layout_width="150dp"
                 android:layout_height="100dp"
-                android:layout_marginStart="16dp"
-                android:layout_marginLeft="16dp"
                 android:padding="0dp"
                 android:scaleType="centerCrop"
-                android:src="@drawable/hammer_curl"
-                app:layout_constraintStart_toEndOf="@+id/btnChestPress_db"
+                android:src="@drawable/dumbbell_curl"
+                app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
-
 
             <TextView
                 android:id="@+id/txtDumbbellFly"
@@ -127,6 +95,7 @@
                 app:layout_constraintStart_toEndOf="@+id/btnDumbbellFly"
                 app:layout_constraintTop_toTopOf="parent" />
 
+
             <TextView
                 android:id="@+id/txtPushUp"
                 android:layout_width="wrap_content"
@@ -141,7 +110,6 @@
                 app:layout_constraintEnd_toEndOf="@+id/btnPushUp"
                 app:layout_constraintStart_toStartOf="@+id/btnPushUp"
                 app:layout_constraintTop_toBottomOf="@+id/btnPushUp" />
-
 
         </androidx.constraintlayout.widget.ConstraintLayout>
 

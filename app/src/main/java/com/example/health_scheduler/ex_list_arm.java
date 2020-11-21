@@ -21,8 +21,7 @@ public class ex_list_arm extends AppCompatActivity {
         ImageButton button4=findViewById(R.id.btnTriExten_bb);
         ImageButton button5=findViewById(R.id.btnTriExten_db);
         ImageButton button6=findViewById(R.id.btnTriExten_mc);
-        ImageButton button7=findViewById(R.id.btnTriExten);
-        Button addbtn = findViewById(R.id.addedList);
+        //Button addbtn = findViewById(R.id.addedList);
 
         Button button1 = findViewById(R.id.addedList);
         button.setOnClickListener(new View.OnClickListener() {

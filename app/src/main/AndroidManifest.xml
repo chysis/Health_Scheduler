@@ -36,6 +36,7 @@
         <activity android:name=".ex_decline_bench_press" />
         <activity android:name=".ex_dumbbell_diagonal_raise" />
         <activity android:name=".ex_dumbbell_front_raise" />
+        <activity android:name=".ex_dumbbell_fly"/>
         <activity android:name=".ex_chin_up" />
         <activity android:name=".ex_dumbbell_row" />
         <activity android:name=".ex_lateral_raise" />
@@ -43,12 +44,14 @@
         <activity android:name=".ex_hammer_curl" />
         <activity android:name=".ex_biceps_curl" />
         <activity android:name=".ex_pull_up" />
+        <activity android:name=".ex_push_up"/>
         <activity android:name=".ex_military_press" />
         <activity android:name=".ex_reverse_fly" />
         <activity android:name=".ex_shoulder_press" />
         <activity android:name=".ex_shoulder_shrugs" />
         <activity android:name=".ex_upright_row" />
         <activity android:name=".ex_seated_row" />
+        <activity android:name=".ex_side_lying_lateral_raise"/>
         <activity android:name=".ex_triceps_extension_bb" />
         <activity android:name=".ex_triceps_extension_db" />
         <activity android:name=".ex_triceps_extension_mc" />

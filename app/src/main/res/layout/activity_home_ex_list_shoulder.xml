@@ -127,7 +127,7 @@
                 app:layout_constraintTop_toBottomOf="@+id/btnLateralRaise" />
 
             <ImageButton
-                android:id="@+id/btnMilitaryPress"
+                android:id="@+id/btnSideLyingDbRaise"
                 android:layout_width="150dp"
                 android:layout_height="100dp"
                 android:layout_marginStart="16dp"
@@ -142,85 +142,14 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:gravity="center"
-                android:text="military press"
+                android:text="Side Lying\nDumbbell Raise"
                 android:textSize="18sp"
                 app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toEndOf="@+id/btnMilitaryPress"
-                app:layout_constraintStart_toStartOf="@+id/btnMilitaryPress"
-                app:layout_constraintTop_toBottomOf="@+id/btnMilitaryPress" />
-
-            <ImageButton
-                android:id="@+id/btnReverseFly"
-                android:layout_width="150dp"
-                android:layout_height="100dp"
-                android:layout_marginStart="16dp"
-                android:layout_marginLeft="16dp"
-                android:padding="0dp"
-                android:scaleType="centerCrop"
-                android:src="@drawable/hammer_curl"
-                app:layout_constraintStart_toEndOf="@+id/btnMilitaryPress"
-                app:layout_constraintTop_toTopOf="parent" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:gravity="center"
-                android:text="Reverse Fly"
-                android:textSize="18sp"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toEndOf="@+id/btnReverseFly"
-                app:layout_constraintStart_toStartOf="@+id/btnReverseFly"
-                app:layout_constraintTop_toBottomOf="@+id/btnReverseFly" />
-
-            <ImageButton
-                android:id="@+id/btnShoulderPress"
-                android:layout_width="150dp"
-                android:layout_height="100dp"
-                android:layout_marginStart="16dp"
-                android:layout_marginLeft="16dp"
-                android:padding="0dp"
-                android:scaleType="centerCrop"
-                android:src="@drawable/hammer_curl"
-                app:layout_constraintStart_toEndOf="@+id/btnReverseFly"
-                app:layout_constraintTop_toTopOf="parent" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:gravity="center"
-                android:text="Shoulder Press"
-                android:textSize="18sp"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toEndOf="@+id/btnShoulderPress"
-                app:layout_constraintStart_toStartOf="@+id/btnShoulderPress"
-                app:layout_constraintTop_toBottomOf="@+id/btnShoulderPress" />
-
-            <ImageButton
-                android:id="@+id/btnUprightRow"
-                android:layout_width="150dp"
-                android:layout_height="100dp"
-                android:layout_marginStart="16dp"
-                android:layout_marginLeft="16dp"
-                android:padding="0dp"
-                android:scaleType="centerCrop"
-                android:src="@drawable/hammer_curl"
-                app:layout_constraintStart_toEndOf="@+id/btnShoulderPress"
-                app:layout_constraintTop_toTopOf="parent" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:gravity="center"
-                android:text="Upright Row"
-                android:textSize="18sp"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toEndOf="@+id/btnUprightRow"
-                app:layout_constraintStart_toStartOf="@+id/btnUprightRow"
-                app:layout_constraintTop_toBottomOf="@+id/btnUprightRow" />
-
+                app:layout_constraintEnd_toEndOf="@+id/btnSideLyingDbRaise"
+                app:layout_constraintStart_toStartOf="@+id/btnSideLyingDbRaise"
+                app:layout_constraintTop_toBottomOf="@+id/btnSideLyingDbRaise" />
 
         </androidx.constraintlayout.widget.ConstraintLayout>
-
 
     </HorizontalScrollView>
 
