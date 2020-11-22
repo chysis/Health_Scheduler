@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@android:color/holo_blue_light"
+        android:gravity="center"
+        android:text="Elbow to Knee Crunch"
+        android:textColor="@android:color/black"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.google.android.youtube.player.YouTubePlayerView
+        android:id="@+id/elbowtoKneeCrunchView"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_marginTop="88dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2">
+
+    </com.google.android.youtube.player.YouTubePlayerView>
+
+    <Button
+        android:id="@+id/playElbowtoKneeCrunchVideo"
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:text="재생"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/elbowtoKneeCrunchView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <Button
+        android:id="@+id/btnElbowtoKneeCrunch"
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="20dp"
+        android:background="@android:color/white"
+        android:text="담기"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/elbowtoKneeCrunchView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <TextView
+        android:id="@+id/howToElbowtoKneeCrunch"
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:text="1. 등을 대고 반듯이 누워서 머리 뒤에 손을 얹는다. 무릎을 굽혀 허벅지와 엉덩이는 90도 각도를 이루게 하고, 종아리는 바닥에 평행하게 들어 올린다.
+\n\n2. 몸통을 한 방향으로 비틀어 팔꿈치를 반대쪽 무릎에 오게 하면서 다른 쪽 다리를 완전히 뻗는다.
+\n\n3. 천천히 원래 위치로 돌아간 뒤 반대 방향으로 비틀어 2번 동작부터 반복한다."
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        android:padding="5dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/elbowtoKneeCrunchView"
+        android:scrollbars="vertical"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

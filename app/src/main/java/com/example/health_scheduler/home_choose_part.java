@@ -15,7 +15,7 @@ public class home_choose_part extends AppCompatActivity {
         Button button3 = findViewById(R.id.btnHomeChest);
         Button button4 = findViewById(R.id.btnHomeCore);
         Button button5 = findViewById(R.id.btnHomeLeg);
-        //Button button6 = findViewById(R.id.btnHomeBack);
+        Button button6 = findViewById(R.id.btnHomeBack);
 
         button.setOnClickListener(new View.OnClickListener(){
             @Override
@@ -41,7 +41,7 @@ public class home_choose_part extends AppCompatActivity {
             }
         });
 
-        /*button4.setOnClickListener(new View.OnClickListener(){
+        button4.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v){
                 Intent intent4 = new Intent(getApplicationContext(), home_ex_list_core.class);
@@ -63,6 +63,6 @@ public class home_choose_part extends AppCompatActivity {
                 Intent intent6 = new Intent(getApplicationContext(), ex_list_back.class);
                 startActivity(intent6);
             }
-        });*/
+        });
     }
 }

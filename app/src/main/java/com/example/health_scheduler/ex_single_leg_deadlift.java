@@ -12,24 +12,24 @@ import com.google.android.youtube.player.YouTubeInitializationResult;
 import com.google.android.youtube.player.YouTubePlayer;
 import com.google.android.youtube.player.YouTubePlayerView;
 
-public class ex_side_lying_lateral_raise extends YouTubeBaseActivity {
+public class ex_single_leg_deadlift extends YouTubeBaseActivity {
     YouTubePlayerView playerView;
     YouTubePlayer player;
 
     private static String API_KEY="AIzaSyBrEvSjzDIdr18Sy1e3E508vpYS8FYMiUo";
-    private static String videoId="NnHZKlP09ww";
+    private static String videoId="QByYAaoVUSs";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.ex_side_lying_lateral_raise);
+        setContentView(R.layout.ex_single_leg_deadlift);
 
-        TextView textView = findViewById(R.id.howToSidelyingLtRaise);
+        TextView textView = findViewById(R.id.howToSingleLegDeadlift);
         textView.setMovementMethod(ScrollingMovementMethod.getInstance());
 
         initPlayer();
 
-        Button button = findViewById(R.id.playSideLyingDbRaiseVideo);
+        Button button = findViewById(R.id.playSingleLegDeadliftVideo);
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -38,7 +38,7 @@ public class ex_side_lying_lateral_raise extends YouTubeBaseActivity {
         });
     }
     public void initPlayer(){
-        playerView = findViewById(R.id.sideLyingLtRaiseView);
+        playerView = findViewById(R.id.singleLegDeadliftView);
         playerView.initialize(API_KEY, new YouTubePlayer.OnInitializedListener() {
             @Override
             public void onInitializationSuccess(YouTubePlayer.Provider provider, YouTubePlayer youTubePlayer, boolean b) {

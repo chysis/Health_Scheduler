@@ -34,6 +34,7 @@ public class home_ex_list_arm extends AppCompatActivity {
                 startActivity(intent2);
             }
         });
+
         button3.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v){
@@ -41,6 +42,7 @@ public class home_ex_list_arm extends AppCompatActivity {
                 startActivity(intent3);
             }
         });
+
         button4.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v){

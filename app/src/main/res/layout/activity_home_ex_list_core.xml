@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ex_list_chest">
+
+
+    <TextView
+        android:id="@+id/chooseplace"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@android:color/holo_blue_light"
+        android:gravity="center"
+        android:text="홈 트레이닝 - 코어 운동"
+        android:textColor="@android:color/black"
+        android:textSize="25sp"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/addedList"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_marginTop="124dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginRight="24dp"
+        android:text="담은 리스트"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <HorizontalScrollView
+        android:id="@+id/horizontalScrollView"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.414">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+            <ImageButton
+                android:id="@+id/btnAbdominalCrunch"
+                android:layout_width="150dp"
+                android:layout_height="100dp"
+                android:padding="0dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/dumbbell_curl"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/txtAbdominalCrunch"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="0dp"
+                android:gravity="center"
+                android:text="Abdominal Crunch"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="@+id/btnAbdominalCrunch"
+                app:layout_constraintStart_toStartOf="@+id/btnAbdominalCrunch"
+                app:layout_constraintTop_toBottomOf="@+id/btnAbdominalCrunch" />
+
+            <ImageButton
+                android:id="@+id/btnAbdominalDoubleCrunch"
+                android:layout_width="150dp"
+                android:layout_height="100dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginLeft="16dp"
+                android:padding="0dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/hammer_curl"
+                app:layout_constraintStart_toEndOf="@+id/btnAbdominalCrunch"
+                app:layout_constraintTop_toTopOf="parent" />
+
+
+            <TextView
+                android:id="@+id/txtAbdominalDoubleCrunch"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="0dp"
+                android:gravity="center"
+                android:text="Double Crunch"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="@+id/btnAbdominalDoubleCrunch"
+                app:layout_constraintStart_toStartOf="@+id/btnAbdominalDoubleCrunch"
+                app:layout_constraintTop_toBottomOf="@+id/btnAbdominalDoubleCrunch" />
+
+            <ImageButton
+                android:id="@+id/btnBridge"
+                android:layout_width="150dp"
+                android:layout_height="100dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginLeft="16dp"
+                android:padding="0dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/hammer_curl"
+                app:layout_constraintStart_toEndOf="@+id/btnAbdominalDoubleCrunch"
+                app:layout_constraintTop_toTopOf="parent" />
+
+
+            <TextView
+                android:id="@+id/txtBridge"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="0dp"
+                android:gravity="center"
+                android:text="Bridge"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="@+id/btnBridge"
+                app:layout_constraintStart_toStartOf="@+id/btnBridge"
+                app:layout_constraintTop_toBottomOf="@+id/btnBridge" />
+
+            <ImageButton
+                android:id="@+id/btnSingleLegDeadlift"
+                android:layout_width="150dp"
+                android:layout_height="100dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginLeft="30dp"
+                android:padding="0dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/hammer_curl"
+                app:layout_constraintStart_toEndOf="@+id/btnBridge"
+                app:layout_constraintTop_toTopOf="parent" />
+
+
+            <TextView
+                android:id="@+id/txtSingleLegDeadlift"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="0dp"
+                android:gravity="center"
+                android:text="single Leg Deadlift"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="@+id/btnSingleLegDeadlift"
+                app:layout_constraintStart_toStartOf="@+id/btnSingleLegDeadlift"
+                app:layout_constraintTop_toBottomOf="@+id/btnSingleLegDeadlift" />
+
+            <ImageButton
+                android:id="@+id/btnElbowtoKneeCrunch"
+                android:layout_width="150dp"
+                android:layout_height="100dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginLeft="16dp"
+                android:padding="0dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/hammer_curl"
+                app:layout_constraintStart_toEndOf="@+id/btnSingleLegDeadlift"
+                app:layout_constraintTop_toTopOf="parent" />
+
+
+            <TextView
+                android:id="@+id/txtElbowtoKneeCrunch"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="0dp"
+                android:gravity="center"
+                android:text="Elbow-to-Knee Crunch"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="@+id/btnElbowtoKneeCrunch"
+                app:layout_constraintStart_toStartOf="@+id/btnElbowtoKneeCrunch"
+                app:layout_constraintTop_toBottomOf="@+id/btnElbowtoKneeCrunch" />
+
+            <ImageButton
+                android:id="@+id/btnHangingKneeRaise"
+                android:layout_width="150dp"
+                android:layout_height="100dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginLeft="16dp"
+                android:padding="0dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/hammer_curl"
+                app:layout_constraintStart_toEndOf="@+id/btnElbowtoKneeCrunch"
+                app:layout_constraintTop_toTopOf="parent" />
+
+
+            <TextView
+                android:id="@+id/txtHangingKneeRaise"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="0dp"
+                android:gravity="center"
+                android:text="Hanging Knee Raise"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="@+id/btnHangingKneeRaise"
+                app:layout_constraintStart_toStartOf="@+id/btnHangingKneeRaise"
+                app:layout_constraintTop_toBottomOf="@+id/btnHangingKneeRaise" />
+
+            <ImageButton
+                android:id="@+id/btnKneeTuck"
+                android:layout_width="150dp"
+                android:layout_height="100dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginLeft="16dp"
+                android:padding="0dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/hammer_curl"
+                app:layout_constraintStart_toEndOf="@+id/btnHangingKneeRaise"
+                app:layout_constraintTop_toTopOf="parent" />
+
+
+            <TextView
+                android:id="@+id/txtKneeTuck"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="0dp"
+                android:gravity="center"
+                android:text="Knee Tuck"
+                android:textSize="18sp"
+                android:textColor="@android:color/black"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="@+id/btnKneeTuck"
+                app:layout_constraintStart_toStartOf="@+id/btnKneeTuck"
+                app:layout_constraintTop_toBottomOf="@+id/btnKneeTuck" />
+
+            <ImageButton
+                android:id="@+id/btnPilatesHundreds"
+                android:layout_width="150dp"
+                android:layout_height="100dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginLeft="16dp"
+                android:padding="0dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/hammer_curl"
+                app:layout_constraintStart_toEndOf="@+id/btnKneeTuck"
+                app:layout_constraintTop_toTopOf="parent" />
+
+
+            <TextView
+                android:id="@+id/txtPilatesHundreds"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="0dp"
+                android:gravity="center"
+                android:text="Hundreds"
+                android:textSize="18sp"
+                android:textColor="@android:color/black"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="@+id/btnPilatesHundreds"
+                app:layout_constraintStart_toStartOf="@+id/btnPilatesHundreds"
+                app:layout_constraintTop_toBottomOf="@+id/btnPilatesHundreds" />
+
+            <ImageButton
+                android:id="@+id/btnPlank"
+                android:layout_width="150dp"
+                android:layout_height="100dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginLeft="16dp"
+                android:padding="0dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/hammer_curl"
+                app:layout_constraintStart_toEndOf="@+id/btnPilatesHundreds"
+                app:layout_constraintTop_toTopOf="parent" />
+
+
+            <TextView
+                android:id="@+id/txtPlank"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="0dp"
+                android:gravity="center"
+                android:text="Plank"
+                android:textSize="18sp"
+                android:textColor="@android:color/black"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="@+id/btnPlank"
+                app:layout_constraintStart_toStartOf="@+id/btnPlank"
+                app:layout_constraintTop_toBottomOf="@+id/btnPlank" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </HorizontalScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -17,7 +17,8 @@ public class home_ex_list_shoulder extends AppCompatActivity {
         ImageButton button = findViewById(R.id.btnDbDiagonalRaise);
         ImageButton button2 = findViewById(R.id.btnDbFrontRaise);
         ImageButton button3 = findViewById(R.id.btnLateralRaise);
-        ImageButton button4 = findViewById(R.id.btnSideLyingDbRaise);
+        ImageButton button4 = findViewById(R.id.btnSideLyingLtRaise);
+        ImageButton button5 = findViewById(R.id.btnShoulderShrugs);
 
         button.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -48,6 +49,14 @@ public class home_ex_list_shoulder extends AppCompatActivity {
             public void onClick(View v) {
                 Intent intent4 = new Intent(getApplicationContext(), ex_side_lying_lateral_raise.class);
                 startActivity(intent4);
+            }
+        });
+
+        button5.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent5 = new Intent(getApplicationContext(), ex_shoulder_shrugs.class);
+                startActivity(intent5);
             }
         });
     }
