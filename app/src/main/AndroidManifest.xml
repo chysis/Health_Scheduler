@@ -11,7 +11,14 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".home_ex_list_chest"></activity>
+        <activity android:name=".ex_split_squat"></activity>
+        <activity android:name=".ex_squat" />
+        <activity android:name=".ex_lunge" />
+        <activity android:name=".ex_lying_leg_curl_db" />
+        <activity android:name=".ex_lateral_lunge" />
+        <activity android:name=".ex_calf_raise" />
+        <activity android:name=".home_ex_list_leg" />
+        <activity android:name=".home_ex_list_chest" />
         <activity android:name=".home_ex_list_shoulder" />
         <activity android:name=".home_ex_list_arm" />
         <activity android:name=".ex_barbell_squat" />
