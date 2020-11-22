@@ -63,7 +63,6 @@ public class calendar_main extends AppCompatActivity {
                 del_Btn.setVisibility(View.VISIBLE);
                 contextEditText.setVisibility(View.INVISIBLE);
                 textView2.setVisibility(View.VISIBLE);
-
             }
         });
     }
@@ -85,9 +84,18 @@ public class calendar_main extends AppCompatActivity {
             textView2.setVisibility(View.VISIBLE);
             textView2.setText(str);
 
-            save_Btn.setVisibility(View.INVISIBLE);
-            cha_Btn.setVisibility(View.VISIBLE);
-            del_Btn.setVisibility(View.VISIBLE);
+            if(str.equals("")){
+                contextEditText.setVisibility(View.VISIBLE);
+                save_Btn.setVisibility(View.VISIBLE);
+                cha_Btn.setVisibility(View.INVISIBLE);
+                del_Btn.setVisibility(View.INVISIBLE);
+            }else {
+                contextEditText.setVisibility(View.INVISIBLE);
+                save_Btn.setVisibility(View.INVISIBLE);
+                cha_Btn.setVisibility(View.VISIBLE);
+                del_Btn.setVisibility(View.VISIBLE);
+            }
+
 
             cha_Btn.setOnClickListener(new View.OnClickListener() {
                 @Override
