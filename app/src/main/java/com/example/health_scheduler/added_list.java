@@ -1,6 +1,7 @@
 package com.example.health_scheduler;
 
 import android.content.Context;
+import android.content.Intent;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.view.View;
@@ -74,6 +75,15 @@ public class added_list extends AppCompatActivity {
                         adapter.notifyDataSetChanged();
                     }
                 }
+            }
+        });
+
+        Button button2 = findViewById(R.id.btnStart);
+        button2.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View v){
+                Intent intent = new Intent(getApplicationContext(), pause_display.class);
+                startActivity(intent);
             }
         });
     }

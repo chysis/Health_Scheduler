@@ -3,7 +3,6 @@ package com.example.health_scheduler;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.Button;
 import android.widget.ImageButton;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -15,15 +14,15 @@ public class home_ex_list_core extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home_ex_list_core);
 
-        Button button = findViewById(R.id.btnAbdominalCrunch);
-        Button button3 = findViewById(R.id.btnAbdominalDoubleCrunch);
-        Button button4 = findViewById(R.id.btnBridge);
-        Button button5 = findViewById(R.id.btnSingleLegDeadlift);
-        Button button6 = findViewById(R.id.btnElbowtoKneeCrunch);
+        ImageButton button = findViewById(R.id.btnAbdominalCrunch);
+        ImageButton button3 = findViewById(R.id.btnAbdominalDoubleCrunch);
+        ImageButton button4 = findViewById(R.id.btnBridge);
+        ImageButton button5 = findViewById(R.id.btnSingleLegDeadlift);
+        ImageButton button6 = findViewById(R.id.btnElbowtoKneeCrunch);
         ImageButton button7 = findViewById(R.id.btnHangingKneeRaise);
-        Button button8 = findViewById(R.id.btnKneeTuck);
-        Button button9 = findViewById(R.id.btnPilatesHundreds);
-        Button button10 = findViewById(R.id.btnPlank);
+        ImageButton button8 = findViewById(R.id.btnKneeTuck);
+        ImageButton button9 = findViewById(R.id.btnPilatesHundreds);
+        ImageButton button10 = findViewById(R.id.btnPlank);
 
         button.setOnClickListener(new View.OnClickListener() {
             @Override

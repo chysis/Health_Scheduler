@@ -60,7 +60,7 @@ public class home_choose_part extends AppCompatActivity {
         button6.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v){
-                Intent intent6 = new Intent(getApplicationContext(), ex_list_back.class);
+                Intent intent6 = new Intent(getApplicationContext(), home_ex_list_back.class);
                 startActivity(intent6);
             }
         });

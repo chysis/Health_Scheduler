@@ -17,13 +17,12 @@ public class ex_list_arm extends AppCompatActivity {
 
         ImageButton button = findViewById(R.id.btnDumbCurl);
         ImageButton button2=findViewById(R.id.btnHamCurl);
-        ImageButton button3=findViewById(R.id.btnBicepscurl);
+        ImageButton button3=findViewById(R.id.btnBicepsCurl);
         ImageButton button4=findViewById(R.id.btnTriExten_bb);
         ImageButton button5=findViewById(R.id.btnTriExten_db);
         ImageButton button6=findViewById(R.id.btnTriExten_mc);
-        //Button addbtn = findViewById(R.id.addedList);
-
         Button button1 = findViewById(R.id.addedList);
+
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

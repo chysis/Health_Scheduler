@@ -16,8 +16,8 @@ public class home_ex_list_arm extends AppCompatActivity {
 
         ImageButton button = findViewById(R.id.btnDumbCurl);
         ImageButton button2=findViewById(R.id.btnHamCurl);
-        ImageButton button3=findViewById(R.id.btnBicepscurl);
-        ImageButton button4=findViewById(R.id.btnTriExten_db);
+        ImageButton button3=findViewById(R.id.btnBicepsCurl2);
+        ImageButton button4=findViewById(R.id.btnTriExten);
 
         button.setOnClickListener(new View.OnClickListener() {
             @Override

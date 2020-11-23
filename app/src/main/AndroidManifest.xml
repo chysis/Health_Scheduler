@@ -67,6 +67,7 @@
         <activity android:name=".ex_shoulder_press" />
         <activity android:name=".ex_shoulder_shrugs" />
         <activity android:name=".ex_scapular_retraction"/>
+        <activity android:name=".ex_single_leg_deadlift"/>
         <activity android:name=".ex_seated_band_row"/>
         <activity android:name=".ex_upright_row" />
         <activity android:name=".ex_seated_row" />
@@ -79,6 +80,8 @@
         <activity android:name=".home_choose_part" />
         <activity android:name=".choose_place" />
         <activity android:name=".calendar_main" />
+        <activity android:name=".pause_display"/>
+        <activity android:name=".exercise_display"/>
         <activity android:name=".information" />
         <activity android:name=".MainActivity">
             <intent-filter>
