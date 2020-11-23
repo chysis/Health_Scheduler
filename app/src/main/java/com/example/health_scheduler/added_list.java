@@ -1,12 +1,9 @@
 package com.example.health_scheduler;
 
 import android.content.DialogInterface;
-import android.content.Intent;
 import android.graphics.Color;
-import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.AdapterView;
 import android.widget.Button;
 import android.widget.ListView;
 
@@ -56,6 +53,7 @@ public class added_list extends AppCompatActivity {
 
 
         final Button add = (Button) findViewById(R.id.btnAdd);
+        final Button del = (Button) findViewById(R.id.btnDelete);
 
         add.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -73,7 +71,12 @@ public class added_list extends AppCompatActivity {
                             case 0:
                                 AlertDialog.Builder alertDialog1 = new AlertDialog.Builder(added_list.this);
                                 alertDialog1.setTitle("운동선택");
-                                String[] items = {"덤벨컬","해머컬","1","2","3","4","5","6","7","8","9","10","11","12","13"};
+                                String[] items = {"<팔 운동>", "덤벨컬","해머컬","바이셉컬","트라이셉스 익스텐션(바벨)","트라이셉스 익스텐션(덤벨)","트라이셉스 익스텐션(머신)",
+                                        "<가슴 운동>", "벤치 프레스","체스트 프레스(덤벨)","체스트 프레스(머신)","디클라인 벤치프레스","인클라인 벤치프레스",
+                                        "<어깨 운동>", "덤벨 대각선 레이즈","덤벨 프론트 레이즈","레터럴 레이즈","밀리터리 프레스", "리버스 플라이", "숄더 프레스", "업라이트 로우", "숄더 슈러그",
+                                        "<등 운동>", "벤치 풀", "벤트오버 바벨로우", "친 업", "풀 업", "랫 풀다운", "시티드 로우", "덤벨 로우",
+                                        "<코어 운동>", "데드 리프트", "행잉 니 레이즈",
+                                        "<다리 운동>", "레그 컬", "레그 프레스", "바벨 스쿼트"};
                                 int checkedItem = 1;
                                 alertDialog1.setSingleChoiceItems(items, checkedItem, new DialogInterface.OnClickListener() {
                                     @Override
@@ -121,6 +124,13 @@ public class added_list extends AppCompatActivity {
                 AlertDialog alert = alertDialog.create();
                 alert.setCanceledOnTouchOutside(false);
                 alert.show();
+            }
+        });
+
+        del.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View v) {
+
             }
         });
         // 리스트뷰 아이템 추가 끝

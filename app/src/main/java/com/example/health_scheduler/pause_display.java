@@ -7,7 +7,7 @@ import android.widget.TextView;
 
 public class pause_display extends Activity {
 
-    private static final int MILLISINFUTURE = 11*1000;
+    private static final int MILLISINFUTURE = 31*1000;
     private static final int COUNT_DOWN_INTERVAL = 1000;
 
     private int count=10;
