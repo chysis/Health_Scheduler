@@ -9,6 +9,7 @@ import android.view.View;
 import android.widget.AdapterView;
 import android.widget.Button;
 import android.widget.ListView;
+import android.widget.Toast;
 
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
@@ -42,7 +43,7 @@ public class added_list extends AppCompatActivity {
         pieChart.invalidate();
 
 
-        ListView exListView ;
+        final ListView exListView ;
         final ListViewAdapter adapter;
 
         // Adapter 생성
@@ -91,7 +92,6 @@ public class added_list extends AppCompatActivity {
                                                 adapter.notifyDataSetChanged();
                                                 break;
                                             case 1:
-
                                                 count = adapter.getCount();
 
                                                 // 아이템 추가.
@@ -123,6 +123,17 @@ public class added_list extends AppCompatActivity {
                 alert.show();
             }
         });
+
+        Button btn_to_exstart = findViewById(R.id.btnStart);
+        btn_to_exstart.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Integer a = exListView.getCount();
+                Toast.makeText(getApplicationContext(),a.toString()+"개",Toast.LENGTH_SHORT).show();
+
+            }
+        });
+
         // 리스트뷰 아이템 추가 끝
     }
 
