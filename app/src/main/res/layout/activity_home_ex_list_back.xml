@@ -53,7 +53,7 @@
                 android:layout_height="100dp"
                 android:padding="0dp"
                 android:scaleType="centerCrop"
-                android:src="@drawable/dumbbell_curl"
+                android:src="@drawable/pull_up"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
 
@@ -80,7 +80,7 @@
                 android:layout_marginLeft="16dp"
                 android:padding="0dp"
                 android:scaleType="centerCrop"
-                android:src="@drawable/hammer_curl"
+                android:src="@drawable/bent_over_dumbbell_row"
                 app:layout_constraintStart_toEndOf="@+id/btnPullUp2"
                 app:layout_constraintTop_toTopOf="parent" />
 
@@ -109,7 +109,7 @@
                 android:layout_marginLeft="16dp"
                 android:padding="0dp"
                 android:scaleType="centerCrop"
-                android:src="@drawable/hammer_curl"
+                android:src="@drawable/scapular_retraction"
                 app:layout_constraintStart_toEndOf="@+id/btnBentOverDumbbellRow"
                 app:layout_constraintTop_toTopOf="parent" />
 
@@ -137,7 +137,7 @@
                 android:layout_marginLeft="16dp"
                 android:padding="0dp"
                 android:scaleType="centerCrop"
-                android:src="@drawable/hammer_curl"
+                android:src="@drawable/seated_band_row"
                 app:layout_constraintStart_toEndOf="@+id/btnScapularRetraction"
                 app:layout_constraintTop_toTopOf="parent" />
 

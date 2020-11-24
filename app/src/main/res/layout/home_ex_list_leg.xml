@@ -50,7 +50,7 @@
                 android:layout_height="100dp"
                 android:padding="0dp"
                 android:scaleType="centerCrop"
-                android:src="@drawable/dumbbell_curl"
+                android:src="@drawable/calf_raise"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
 
@@ -77,7 +77,7 @@
                 android:layout_marginLeft="16dp"
                 android:padding="0dp"
                 android:scaleType="centerCrop"
-                android:src="@drawable/hammer_curl"
+                android:src="@drawable/lateral_lunge"
                 app:layout_constraintStart_toEndOf="@+id/btnCalfRaise"
                 app:layout_constraintTop_toTopOf="parent" />
 
@@ -106,7 +106,7 @@
                 android:layout_marginLeft="16dp"
                 android:padding="0dp"
                 android:scaleType="centerCrop"
-                android:src="@drawable/hammer_curl"
+                android:src="@drawable/leg_dum_curl"
                 app:layout_constraintStart_toEndOf="@+id/btnLateralLunge"
                 app:layout_constraintTop_toTopOf="parent" />
 
@@ -134,7 +134,7 @@
                 android:layout_marginLeft="16dp"
                 android:padding="0dp"
                 android:scaleType="centerCrop"
-                android:src="@drawable/hammer_curl"
+                android:src="@drawable/lunge"
                 app:layout_constraintStart_toEndOf="@+id/txtLyingLegCurlWithDumbbell"
                 app:layout_constraintTop_toTopOf="parent" />
 
@@ -162,7 +162,7 @@
                 android:layout_marginLeft="16dp"
                 android:padding="0dp"
                 android:scaleType="centerCrop"
-                android:src="@drawable/hammer_curl"
+                android:src="@drawable/squat"
                 app:layout_constraintStart_toEndOf="@+id/btnLunge"
                 app:layout_constraintTop_toTopOf="parent" />
 
@@ -190,7 +190,7 @@
                 android:layout_marginLeft="16dp"
                 android:padding="0dp"
                 android:scaleType="centerCrop"
-                android:src="@drawable/hammer_curl"
+                android:src="@drawable/split_squat"
                 app:layout_constraintStart_toEndOf="@+id/btnSquat"
                 app:layout_constraintTop_toTopOf="parent" />
 

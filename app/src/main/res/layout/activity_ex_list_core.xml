@@ -52,7 +52,7 @@
                 android:layout_height="100dp"
                 android:padding="0dp"
                 android:scaleType="centerCrop"
-                android:src="@drawable/dumbbell_curl"
+                android:src="@drawable/deadlift"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
 
@@ -79,7 +79,7 @@
                 android:layout_marginLeft="16dp"
                 android:padding="0dp"
                 android:scaleType="centerCrop"
-                android:src="@drawable/hammer_curl"
+                android:src="@drawable/hanging_knee_raise"
                 app:layout_constraintStart_toEndOf="@+id/btnDeadlift"
                 app:layout_constraintTop_toTopOf="parent" />
 

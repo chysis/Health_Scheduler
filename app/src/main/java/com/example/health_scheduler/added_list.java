@@ -347,7 +347,7 @@ public class added_list extends AppCompatActivity {
                                                 Array.add(30);
                                                 number[count]=which;
                                                 // 아이템 추가.
-                                                adapter.addItem(ContextCompat.getDrawable(getApplicationContext(), R.drawable.hammer_curl),
+                                                adapter.addItem(ContextCompat.getDrawable(getApplicationContext(), R.drawable.bench_pull),
                                                         "벤치 풀");
 
                                                 // listview 갱신
@@ -359,7 +359,7 @@ public class added_list extends AppCompatActivity {
                                                 Array.add(31);
                                                 number[count]=which;
                                                 // 아이템 추가.
-                                                adapter.addItem(ContextCompat.getDrawable(getApplicationContext(), R.drawable.hammer_curl),
+                                                adapter.addItem(ContextCompat.getDrawable(getApplicationContext(), R.drawable.bent_over_barbelll_row),
                                                         "벤트오버 바벨로우");
 
                                                 // listview 갱신
@@ -371,7 +371,7 @@ public class added_list extends AppCompatActivity {
                                                 Array.add(32);
                                                 number[count]=which;
                                                 // 아이템 추가.
-                                                adapter.addItem(ContextCompat.getDrawable(getApplicationContext(), R.drawable.hammer_curl),
+                                                adapter.addItem(ContextCompat.getDrawable(getApplicationContext(), R.drawable.chin_up),
                                                         "친 업");
 
                                                 // listview 갱신
@@ -383,7 +383,7 @@ public class added_list extends AppCompatActivity {
                                                 Array.add(33);
                                                 number[count]=which;
                                                 // 아이템 추가.
-                                                adapter.addItem(ContextCompat.getDrawable(getApplicationContext(), R.drawable.hammer_curl),
+                                                adapter.addItem(ContextCompat.getDrawable(getApplicationContext(), R.drawable.pull_up),
                                                         "풀 업");
 
                                                 // listview 갱신
@@ -395,7 +395,7 @@ public class added_list extends AppCompatActivity {
                                                 Array.add(34);
                                                 number[count]=which;
                                                 // 아이템 추가.
-                                                adapter.addItem(ContextCompat.getDrawable(getApplicationContext(), R.drawable.hammer_curl),
+                                                adapter.addItem(ContextCompat.getDrawable(getApplicationContext(), R.drawable.lat_pull_down),
                                                         "랫 풀다운");
 
                                                 // listview 갱신
@@ -407,7 +407,7 @@ public class added_list extends AppCompatActivity {
                                                 Array.add(35);
                                                 number[count]=which;
                                                 // 아이템 추가.
-                                                adapter.addItem(ContextCompat.getDrawable(getApplicationContext(), R.drawable.hammer_curl),
+                                                adapter.addItem(ContextCompat.getDrawable(getApplicationContext(), R.drawable.seated_row),
                                                         "시티드 로우");
 
                                                 // listview 갱신
@@ -419,7 +419,7 @@ public class added_list extends AppCompatActivity {
                                                 Array.add(36);
                                                 number[count]=which;
                                                 // 아이템 추가.
-                                                adapter.addItem(ContextCompat.getDrawable(getApplicationContext(), R.drawable.hammer_curl),
+                                                adapter.addItem(ContextCompat.getDrawable(getApplicationContext(), R.drawable.bent_over_dumbbell_row),
                                                         "덤벨 로우");
 
                                                 // listview 갱신
@@ -432,7 +432,7 @@ public class added_list extends AppCompatActivity {
                                                 Array.add(40);
                                                 number[count]=which;
                                                 // 아이템 추가.
-                                                adapter.addItem(ContextCompat.getDrawable(getApplicationContext(), R.drawable.hammer_curl),
+                                                adapter.addItem(ContextCompat.getDrawable(getApplicationContext(), R.drawable.deadlift),
                                                         "데드 리프트");
 
                                                 // listview 갱신
@@ -444,7 +444,7 @@ public class added_list extends AppCompatActivity {
                                                 Array.add(41);
                                                 number[count]=which;
                                                 // 아이템 추가.
-                                                adapter.addItem(ContextCompat.getDrawable(getApplicationContext(), R.drawable.hammer_curl),
+                                                adapter.addItem(ContextCompat.getDrawable(getApplicationContext(), R.drawable.hanging_knee_raise),
                                                         "행잉 니 레이즈");
 
                                                 // listview 갱신
@@ -457,7 +457,7 @@ public class added_list extends AppCompatActivity {
                                                 Array.add(50);
                                                 number[count]=which;
                                                 // 아이템 추가.
-                                                adapter.addItem(ContextCompat.getDrawable(getApplicationContext(), R.drawable.hammer_curl),
+                                                adapter.addItem(ContextCompat.getDrawable(getApplicationContext(), R.drawable.leg_curl),
                                                         "레그 컬");
 
                                                 // listview 갱신
@@ -469,7 +469,7 @@ public class added_list extends AppCompatActivity {
                                                 Array.add(51);
                                                 number[count]=which;
                                                 // 아이템 추가.
-                                                adapter.addItem(ContextCompat.getDrawable(getApplicationContext(), R.drawable.hammer_curl),
+                                                adapter.addItem(ContextCompat.getDrawable(getApplicationContext(), R.drawable.leg_press),
                                                         "레그 프레스");
 
                                                 // listview 갱신
@@ -481,7 +481,7 @@ public class added_list extends AppCompatActivity {
                                                 Array.add(52);
                                                 number[count]=which;
                                                 // 아이템 추가.
-                                                adapter.addItem(ContextCompat.getDrawable(getApplicationContext(), R.drawable.hammer_curl),
+                                                adapter.addItem(ContextCompat.getDrawable(getApplicationContext(), R.drawable.barbell_squat),
                                                         "바벨 스쿼트");
 
                                                 // listview 갱신
@@ -652,7 +652,7 @@ public class added_list extends AppCompatActivity {
                                                 Array.add(400);
                                                 number[count]=which+100;
                                                 // 아이템 추가.
-                                                adapter.addItem(ContextCompat.getDrawable(getApplicationContext(), R.drawable.dumbbell_curl),
+                                                adapter.addItem(ContextCompat.getDrawable(getApplicationContext(), R.drawable.pull_up),
                                                         "풀 업");
                                                 // listview 갱신
                                                 adapter.notifyDataSetChanged();
@@ -664,7 +664,7 @@ public class added_list extends AppCompatActivity {
                                                 Array.add(401);
                                                 number[count]=which+100;
                                                 // 아이템 추가.
-                                                adapter.addItem(ContextCompat.getDrawable(getApplicationContext(), R.drawable.dumbbell_curl),
+                                                adapter.addItem(ContextCompat.getDrawable(getApplicationContext(), R.drawable.bent_over_dumbbell_row),
                                                         "벤트오버 덤벨로우");
                                                 // listview 갱신
                                                 adapter.notifyDataSetChanged();
@@ -676,7 +676,7 @@ public class added_list extends AppCompatActivity {
                                                 Array.add(402);
                                                 number[count]=which+100;
                                                 // 아이템 추가.
-                                                adapter.addItem(ContextCompat.getDrawable(getApplicationContext(), R.drawable.dumbbell_curl),
+                                                adapter.addItem(ContextCompat.getDrawable(getApplicationContext(), R.drawable.scapular_retraction),
                                                         "스카퓰라 리트랙션");
                                                 // listview 갱신
                                                 adapter.notifyDataSetChanged();
@@ -688,7 +688,7 @@ public class added_list extends AppCompatActivity {
                                                 Array.add(500);
                                                 number[count]=which+100;
                                                 // 아이템 추가.
-                                                adapter.addItem(ContextCompat.getDrawable(getApplicationContext(), R.drawable.dumbbell_curl),
+                                                adapter.addItem(ContextCompat.getDrawable(getApplicationContext(), R.drawable.abdominal_crunch),
                                                         "업도미널 크런치");
                                                 // listview 갱신
                                                 adapter.notifyDataSetChanged();
@@ -700,7 +700,7 @@ public class added_list extends AppCompatActivity {
                                                 Array.add(501);
                                                 number[count]=which+100;
                                                 // 아이템 추가.
-                                                adapter.addItem(ContextCompat.getDrawable(getApplicationContext(), R.drawable.dumbbell_curl),
+                                                adapter.addItem(ContextCompat.getDrawable(getApplicationContext(), R.drawable.abdominal_double_crunch),
                                                         "더블 크런치");
                                                 // listview 갱신
                                                 adapter.notifyDataSetChanged();
@@ -711,7 +711,7 @@ public class added_list extends AppCompatActivity {
                                                 Array.add(502);
                                                 number[count]=which+100;
                                                 // 아이템 추가.
-                                                adapter.addItem(ContextCompat.getDrawable(getApplicationContext(), R.drawable.dumbbell_curl),
+                                                adapter.addItem(ContextCompat.getDrawable(getApplicationContext(), R.drawable.bridge),
                                                         "브릿지");
                                                 // listview 갱신
                                                 adapter.notifyDataSetChanged();
@@ -722,7 +722,7 @@ public class added_list extends AppCompatActivity {
                                                 Array.add(503);
                                                 number[count]=which+100;
                                                 // 아이템 추가.
-                                                adapter.addItem(ContextCompat.getDrawable(getApplicationContext(), R.drawable.dumbbell_curl),
+                                                adapter.addItem(ContextCompat.getDrawable(getApplicationContext(), R.drawable.single_leg_deadlift),
                                                         "싱글 레그 데드리프트");
                                                 // listview 갱신
                                                 adapter.notifyDataSetChanged();
@@ -733,7 +733,7 @@ public class added_list extends AppCompatActivity {
                                                 Array.add(504);
                                                 number[count]=which+100;
                                                 // 아이템 추가.
-                                                adapter.addItem(ContextCompat.getDrawable(getApplicationContext(), R.drawable.dumbbell_curl),
+                                                adapter.addItem(ContextCompat.getDrawable(getApplicationContext(), R.drawable.elbow_knee_crunch),
                                                         "엘보우-투-니 크런치");
                                                 // listview 갱신
                                                 adapter.notifyDataSetChanged();
@@ -744,7 +744,7 @@ public class added_list extends AppCompatActivity {
                                                 Array.add(505);
                                                 number[count]=which+100;
                                                 // 아이템 추가.
-                                                adapter.addItem(ContextCompat.getDrawable(getApplicationContext(), R.drawable.dumbbell_curl),
+                                                adapter.addItem(ContextCompat.getDrawable(getApplicationContext(), R.drawable.hanging_knee_raise),
                                                         "행잉 니 레이즈");
                                                 // listview 갱신
                                                 adapter.notifyDataSetChanged();
@@ -755,7 +755,7 @@ public class added_list extends AppCompatActivity {
                                                 Array.add(506);
                                                 number[count]=which+100;
                                                 // 아이템 추가.
-                                                adapter.addItem(ContextCompat.getDrawable(getApplicationContext(), R.drawable.dumbbell_curl),
+                                                adapter.addItem(ContextCompat.getDrawable(getApplicationContext(), R.drawable.knee_tuck),
                                                         "니 턱");
                                                 // listview 갱신
                                                 adapter.notifyDataSetChanged();
@@ -766,7 +766,7 @@ public class added_list extends AppCompatActivity {
                                                 Array.add(507);
                                                 number[count]=which+100;
                                                 // 아이템 추가.
-                                                adapter.addItem(ContextCompat.getDrawable(getApplicationContext(), R.drawable.dumbbell_curl),
+                                                adapter.addItem(ContextCompat.getDrawable(getApplicationContext(), R.drawable.pilates_hundreds),
                                                         "헌드레드");
                                                 // listview 갱신
                                                 adapter.notifyDataSetChanged();
@@ -777,7 +777,7 @@ public class added_list extends AppCompatActivity {
                                                 Array.add(508);
                                                 number[count]=which+100;
                                                 // 아이템 추가.
-                                                adapter.addItem(ContextCompat.getDrawable(getApplicationContext(), R.drawable.dumbbell_curl),
+                                                adapter.addItem(ContextCompat.getDrawable(getApplicationContext(), R.drawable.plank),
                                                         "플랭크");
                                                 // listview 갱신
                                                 adapter.notifyDataSetChanged();
@@ -789,7 +789,7 @@ public class added_list extends AppCompatActivity {
                                                 Array.add(600);
                                                 number[count]=which+100;
                                                 // 아이템 추가.
-                                                adapter.addItem(ContextCompat.getDrawable(getApplicationContext(), R.drawable.dumbbell_curl),
+                                                adapter.addItem(ContextCompat.getDrawable(getApplicationContext(), R.drawable.calf_raise),
                                                         "카프 레이즈");
                                                 // listview 갱신
                                                 adapter.notifyDataSetChanged();
@@ -800,7 +800,7 @@ public class added_list extends AppCompatActivity {
                                                 Array.add(601);
                                                 number[count]=which+100;
                                                 // 아이템 추가.
-                                                adapter.addItem(ContextCompat.getDrawable(getApplicationContext(), R.drawable.dumbbell_curl),
+                                                adapter.addItem(ContextCompat.getDrawable(getApplicationContext(), R.drawable.lateral_lunge),
                                                         "레터럴 런지");
                                                 // listview 갱신
                                                 adapter.notifyDataSetChanged();
@@ -811,7 +811,7 @@ public class added_list extends AppCompatActivity {
                                                 Array.add(602);
                                                 number[count]=which+100;
                                                 // 아이템 추가.
-                                                adapter.addItem(ContextCompat.getDrawable(getApplicationContext(), R.drawable.dumbbell_curl),
+                                                adapter.addItem(ContextCompat.getDrawable(getApplicationContext(), R.drawable.leg_dum_curl),
                                                         "덤벨 라잉 레그 컬");
                                                 // listview 갱신
                                                 adapter.notifyDataSetChanged();
@@ -822,7 +822,7 @@ public class added_list extends AppCompatActivity {
                                                 Array.add(603);
                                                 number[count]=which+100;
                                                 // 아이템 추가.
-                                                adapter.addItem(ContextCompat.getDrawable(getApplicationContext(), R.drawable.dumbbell_curl),
+                                                adapter.addItem(ContextCompat.getDrawable(getApplicationContext(), R.drawable.lunge),
                                                         "런지");
                                                 // listview 갱신
                                                 adapter.notifyDataSetChanged();
@@ -833,7 +833,7 @@ public class added_list extends AppCompatActivity {
                                                 Array.add(604);
                                                 number[count]=which+100;
                                                 // 아이템 추가.
-                                                adapter.addItem(ContextCompat.getDrawable(getApplicationContext(), R.drawable.dumbbell_curl),
+                                                adapter.addItem(ContextCompat.getDrawable(getApplicationContext(), R.drawable.squat),
                                                         "맨몸 스쿼트");
                                                 // listview 갱신
                                                 adapter.notifyDataSetChanged();
@@ -844,7 +844,7 @@ public class added_list extends AppCompatActivity {
                                                 Array.add(605);
                                                 number[count]=which+100;
                                                 // 아이템 추가.
-                                                adapter.addItem(ContextCompat.getDrawable(getApplicationContext(), R.drawable.dumbbell_curl),
+                                                adapter.addItem(ContextCompat.getDrawable(getApplicationContext(), R.drawable.split_squat),
                                                         "스플릿 스쿼트");
                                                 // listview 갱신
                                                 adapter.notifyDataSetChanged();
