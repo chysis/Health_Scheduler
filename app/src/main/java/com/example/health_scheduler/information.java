@@ -36,7 +36,9 @@ public class information extends AppCompatActivity {
             public void onClick(View v){
                 new AlertDialog.Builder(information.this)
                         .setTitle("저작권 안내")
-                        .setMessage("TODO")
+                        .setMessage("유튜브 영상의 key를 이용해 임베디드 링크를 만들었습니다.\n" +
+                                "영상 원본과 연결되는 것으로 모든 수익은 제작자에게 전해집니다.\n" +
+                                "사진은 영상에서 캡쳐했으며, 이 앱은 상업적으로 이용되지 않음을 알립니다.")
                         .setNeutralButton("닫기", new DialogInterface.OnClickListener() {
                             @Override
                             public void onClick(DialogInterface dialog, int which) {}
@@ -49,7 +51,9 @@ public class information extends AppCompatActivity {
             public void onClick(View v){
                 new AlertDialog.Builder(information.this)
                         .setTitle("TECHNOLOGY")
-                        .setMessage("TODO")
+                        .setMessage("오픈소스(github)에서 material calendar, piechart 이용.\n" +
+                                "https://github.com/PhilJay/MPAndroidChart/tree/master/MPChartLib/src/main/java/com/github/mikephil/charting \n" +
+                                "https://github.com/prolificinteractive/material-calendarview")
                         .setNeutralButton("닫기", new DialogInterface.OnClickListener(){
                             @Override
                             public void onClick(DialogInterface dialog, int which){}
