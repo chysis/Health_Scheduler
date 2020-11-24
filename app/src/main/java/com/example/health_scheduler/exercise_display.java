@@ -55,18 +55,22 @@ public class exercise_display extends YouTubeBaseActivity {
         // 제목에 settext를 하기위한 스위치문
         switch (number[i]) {
             case 1:
+            case 101:
                 textViewt.setText("덤벨컬");
                 break;
             case 2:
+            case 102:
                 textViewt.setText("해머컬");
                 break;
             case 3:
+            case 103:
                 textViewt.setText("바이셉컬");
                 break;
             case 4:
                 textViewt.setText("트라이셉스 익스텐션(바벨)");
                 break;
             case 5:
+            case 104:
                 textViewt.setText("트라이셉스 익스텐션(덤벨)");
                 break;
             case 6:
@@ -93,12 +97,15 @@ public class exercise_display extends YouTubeBaseActivity {
                 break;
 
             case 15:
+            case 109:
                 textViewt.setText("덤벨 대각선 레이즈");
                 break;
             case 16:
+            case 110:
                 textViewt.setText("덤벨 프론트 레이즈");
                 break;
             case 17:
+            case 111:
                 textViewt.setText("레터럴 레이즈");
                 break;
             case 18:
@@ -114,6 +121,7 @@ public class exercise_display extends YouTubeBaseActivity {
                 textViewt.setText("업라이트 로우");
                 break;
             case 22:
+            case 113:
                 textViewt.setText("숄더 슈러그");
                 break;
 
@@ -156,19 +164,6 @@ public class exercise_display extends YouTubeBaseActivity {
                 textViewt.setText("바벨 스쿼트");
                 break;
 
-            case 101:
-                textViewt.setText("덤벨컬");
-                break;
-            case 102:
-                textViewt.setText("해머컬");
-                break;
-            case 103:
-                textViewt.setText("바이셉컬");
-                break;
-            case 104:
-                textViewt.setText("트라이셉스 익스텐션(덤벨)");
-                break;
-
             case 106:
                 textViewt.setText("덤벨 플라이");
                 break;
@@ -176,20 +171,8 @@ public class exercise_display extends YouTubeBaseActivity {
                 textViewt.setText("푸쉬 업");
                 break;
 
-            case 109:
-                textViewt.setText("덤벨 대각선 레이즈");
-                break;
-            case 110:
-                textViewt.setText("덤벨 프론트 레이즈");
-                break;
-            case 111:
-                textViewt.setText("레터럴 레이즈");
-                break;
             case 112:
                 textViewt.setText("사이드 라잉 래터럴 레이즈");
-                break;
-            case 113:
-                textViewt.setText("숄더 슈러그");
                 break;
 
             case 115:

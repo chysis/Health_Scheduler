@@ -201,7 +201,7 @@ public class added_list extends AppCompatActivity {
                                                 Array.add(12);
                                                 number[count]=which;
                                                 // 아이템 추가.
-                                                adapter.addItem(ContextCompat.getDrawable(getApplicationContext(), R.drawable.chestPress_db),
+                                                adapter.addItem(ContextCompat.getDrawable(getApplicationContext(), R.drawable.chestpress_db),
                                                         "체스트 프레스(덤벨)");
 
                                                 // listview 갱신
@@ -213,7 +213,7 @@ public class added_list extends AppCompatActivity {
                                                 Array.add(13);
                                                 number[count]=which;
                                                 // 아이템 추가.
-                                                adapter.addItem(ContextCompat.getDrawable(getApplicationContext(), R.drawable.chestPress_mc),
+                                                adapter.addItem(ContextCompat.getDrawable(getApplicationContext(), R.drawable.chestpress_mc),
                                                         "체스트 프레스(머신)");
 
                                                 // listview 갱신
@@ -225,7 +225,7 @@ public class added_list extends AppCompatActivity {
                                                 Array.add(14);
                                                 number[count]=which;
                                                 // 아이템 추가.
-                                                adapter.addItem(ContextCompat.getDrawable(getApplicationContext(), R.drawable.declineBenchPress),
+                                                adapter.addItem(ContextCompat.getDrawable(getApplicationContext(), R.drawable.declinebenchpress),
                                                         "디클라인 벤치 프레스");
 
                                                 // listview 갱신
@@ -237,7 +237,7 @@ public class added_list extends AppCompatActivity {
                                                 Array.add(15);
                                                 number[count]=which;
                                                 // 아이템 추가.
-                                                adapter.addItem(ContextCompat.getDrawable(getApplicationContext(), R.drawable.inclineBenchPress),
+                                                adapter.addItem(ContextCompat.getDrawable(getApplicationContext(), R.drawable.inclinebenchpress),
                                                         "인클라인 벤치 프레스");
 
                                                 // listview 갱신

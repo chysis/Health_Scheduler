@@ -120,7 +120,7 @@
                 android:layout_marginLeft="16dp"
                 android:padding="0dp"
                 android:scaleType="centerCrop"
-                android:src="@drawable/chestPress_db"
+                android:src="@drawable/chestpress_db"
                 app:layout_constraintStart_toEndOf="@+id/btnBenchThrow"
                 app:layout_constraintTop_toTopOf="parent" />
 
@@ -148,7 +148,7 @@
                 android:layout_marginLeft="16dp"
                 android:padding="0dp"
                 android:scaleType="centerCrop"
-                android:src="@drawable/chestPress_mc"
+                android:src="@drawable/chestpress_mc"
                 app:layout_constraintStart_toEndOf="@+id/btnChestPress_db"
                 app:layout_constraintTop_toTopOf="parent" />
 
@@ -176,7 +176,7 @@
                 android:layout_marginLeft="16dp"
                 android:padding="0dp"
                 android:scaleType="centerCrop"
-                android:src="@drawable/declineBenchPress"
+                android:src="@drawable/declinebenchpress"
                 app:layout_constraintStart_toEndOf="@+id/btnChestPress_mc"
                 app:layout_constraintTop_toTopOf="parent" />
 
@@ -203,7 +203,7 @@
                 android:layout_marginLeft="16dp"
                 android:padding="0dp"
                 android:scaleType="centerCrop"
-                android:src="@drawable/inclineBenchPress"
+                android:src="@drawable/inclinebenchpress"
                 app:layout_constraintStart_toEndOf="@+id/btnDeclineBenchPress"
                 app:layout_constraintTop_toTopOf="parent" />
 
