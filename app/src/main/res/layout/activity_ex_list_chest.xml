@@ -64,7 +64,7 @@
                 android:layout_height="100dp"
                 android:padding="0dp"
                 android:scaleType="centerCrop"
-                android:src="@drawable/dumbbell_curl"
+                android:src="@drawable/bench_press"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
 
@@ -91,7 +91,7 @@
                 android:layout_marginLeft="16dp"
                 android:padding="0dp"
                 android:scaleType="centerCrop"
-                android:src="@drawable/hammer_curl"
+                android:src="@drawable/bench_throw"
                 app:layout_constraintStart_toEndOf="@+id/btnBenchPress"
                 app:layout_constraintTop_toTopOf="parent" />
 
@@ -120,7 +120,7 @@
                 android:layout_marginLeft="16dp"
                 android:padding="0dp"
                 android:scaleType="centerCrop"
-                android:src="@drawable/hammer_curl"
+                android:src="@drawable/chestPress_db"
                 app:layout_constraintStart_toEndOf="@+id/btnBenchThrow"
                 app:layout_constraintTop_toTopOf="parent" />
 
@@ -148,7 +148,7 @@
                 android:layout_marginLeft="16dp"
                 android:padding="0dp"
                 android:scaleType="centerCrop"
-                android:src="@drawable/hammer_curl"
+                android:src="@drawable/chestPress_mc"
                 app:layout_constraintStart_toEndOf="@+id/btnChestPress_db"
                 app:layout_constraintTop_toTopOf="parent" />
 
@@ -176,7 +176,7 @@
                 android:layout_marginLeft="16dp"
                 android:padding="0dp"
                 android:scaleType="centerCrop"
-                android:src="@drawable/hammer_curl"
+                android:src="@drawable/declineBenchPress"
                 app:layout_constraintStart_toEndOf="@+id/btnChestPress_mc"
                 app:layout_constraintTop_toTopOf="parent" />
 
@@ -203,7 +203,7 @@
                 android:layout_marginLeft="16dp"
                 android:padding="0dp"
                 android:scaleType="centerCrop"
-                android:src="@drawable/hammer_curl"
+                android:src="@drawable/inclineBenchPress"
                 app:layout_constraintStart_toEndOf="@+id/btnDeclineBenchPress"
                 app:layout_constraintTop_toTopOf="parent" />
 

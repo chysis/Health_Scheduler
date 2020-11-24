@@ -111,7 +111,7 @@
                 android:layout_marginLeft="16dp"
                 android:padding="0dp"
                 android:scaleType="centerCrop"
-                android:src="@drawable/dumbbell_curl"
+                android:src="@drawable/biceps_curl"
                 app:layout_constraintStart_toEndOf="@+id/btnHamCurl"
                 app:layout_constraintTop_toTopOf="parent" />
 
@@ -163,7 +163,7 @@
                 android:layout_height="100dp"
                 android:padding="0dp"
                 android:scaleType="centerCrop"
-                android:src="@drawable/dumbbell_curl"
+                android:src="@drawable/triceps_bb"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
 
@@ -187,7 +187,7 @@
                 android:layout_marginStart="60dp"
                 android:layout_marginLeft="60dp"
                 android:scaleType="centerCrop"
-                android:src="@drawable/dumbbell_curl"
+                android:src="@drawable/triceps_db"
                 app:layout_constraintStart_toEndOf="@id/btnTriExten_bb"
                 app:layout_constraintTop_toTopOf="parent" />
 
@@ -211,7 +211,7 @@
                 android:layout_marginStart="60dp"
                 android:layout_marginLeft="60dp"
                 android:scaleType="centerCrop"
-                android:src="@drawable/dumbbell_curl"
+                android:src="@drawable/triceps_mc"
                 app:layout_constraintStart_toEndOf="@id/btnTriExten_db"
                 app:layout_constraintTop_toTopOf="parent" />
 

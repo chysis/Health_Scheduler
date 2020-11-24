@@ -17,7 +17,7 @@ public class ex_shoulder_shrugs extends YouTubeBaseActivity {
     YouTubePlayer player;
 
     private static String API_KEY="AIzaSyBrEvSjzDIdr18Sy1e3E508vpYS8FYMiUo";
-    private static String videoId="brhRXlOhsAM";
+    private static String videoId="cJRVVxmytaM";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
