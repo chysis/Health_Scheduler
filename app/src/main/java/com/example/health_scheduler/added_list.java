@@ -58,6 +58,11 @@ public class added_list extends AppCompatActivity {
         final Button add = (Button) findViewById(R.id.btnAdd);
         final Button del = (Button) findViewById(R.id.btnDelete);
 
+        // number배열에 운동 번호 저장 (운동종류)
+        final int number[] = new int[100];
+        // number배열에 운동 타입 번호 저장 (고중량 운동?,저중량운동?,타임운동?)
+        final int number2[] = new int[100];
+
         add.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -65,6 +70,9 @@ public class added_list extends AppCompatActivity {
                 alertDialog.setTitle("운동장소 선택");
                 String[] items = {"헬스장","홈트"};
                 int checkedItem = -1;
+
+
+
                 alertDialog.setSingleChoiceItems(items, checkedItem, new DialogInterface.OnClickListener() {
 
                     @Override
@@ -98,6 +106,7 @@ public class added_list extends AppCompatActivity {
                                                 count = adapter.getCount();
                                                 arm++;
                                                 Array.add(0);
+                                                number[count]=which;
 
                                                 // 아이템 추가.
                                                 adapter.addItem(ContextCompat.getDrawable(getApplicationContext(), R.drawable.dumbbell_curl),
@@ -109,6 +118,7 @@ public class added_list extends AppCompatActivity {
                                                 count = adapter.getCount();
                                                 arm++;
                                                 Array.add(1);
+                                                number[count]=which;
 
                                                 // 아이템 추가.
                                                 adapter.addItem(ContextCompat.getDrawable(getApplicationContext(), R.drawable.hammer_curl),
@@ -121,6 +131,7 @@ public class added_list extends AppCompatActivity {
                                                 count = adapter.getCount();
                                                 arm++;
                                                 Array.add(2);
+                                                number[count]=which;
 
                                                 // 아이템 추가.
                                                 adapter.addItem(ContextCompat.getDrawable(getApplicationContext(), R.drawable.hammer_curl),
@@ -133,6 +144,7 @@ public class added_list extends AppCompatActivity {
                                                 count = adapter.getCount();
                                                 arm++;
                                                 Array.add(3);
+                                                number[count]=which;
 
                                                 // 아이템 추가.
                                                 adapter.addItem(ContextCompat.getDrawable(getApplicationContext(), R.drawable.hammer_curl),
@@ -145,6 +157,7 @@ public class added_list extends AppCompatActivity {
                                                 count = adapter.getCount();
                                                 arm++;
                                                 Array.add(4);
+                                                number[count]=which;
 
                                                 // 아이템 추가.
                                                 adapter.addItem(ContextCompat.getDrawable(getApplicationContext(), R.drawable.hammer_curl),
@@ -157,6 +170,7 @@ public class added_list extends AppCompatActivity {
                                                 count = adapter.getCount();
                                                 arm++;
                                                 Array.add(5);
+                                                number[count]=which;
 
                                                 // 아이템 추가.
                                                 adapter.addItem(ContextCompat.getDrawable(getApplicationContext(), R.drawable.hammer_curl),
@@ -509,6 +523,7 @@ public class added_list extends AppCompatActivity {
                                         "<코어 운동>", "업도미널 크런치500", "더블 크런치501", "브릿지502", "싱글 레그 데드리프트503", "엘보우-투-니 크런치504", "행잉 니 레이즈505", "니 턱506", "헌드레드507", "플랭크508",
                                         "<다리 운동>", "카프 레이즈600", "레터럴 런지601", "라잉 레그컬(덤벨)602", "런지603", "맨몸 스쿼트604", "스플릿 스쿼트605"
                                  */
+
 
                                 int checkedItem2 = 1;
                                 alertDialog2.setSingleChoiceItems(items2, checkedItem2, new DialogInterface.OnClickListener() {
@@ -875,7 +890,9 @@ public class added_list extends AppCompatActivity {
                 Intent intent2 = new Intent(getApplicationContext(), pause_display.class);
                 Integer a = exListView.getCount();
                 Toast.makeText(getApplicationContext(),a.toString()+"개",Toast.LENGTH_SHORT).show();
-                TextView textView2 = ((exercise_display)exercise_display.context_main).textView;
+                intent1.putExtra("number",number);
+                startActivity(intent1);
+                /*TextView textView2 = ((exercise_display)exercise_display.context_main).textView;
                 Button next = ((exercise_display)exercise_display.context_main).btnNext;
 
                 for(int i=0;i<Array.size();i++) {
@@ -1006,10 +1023,13 @@ public class added_list extends AppCompatActivity {
                         case 605:
                             textView2.setText("<Home> 스플릿 스쿼트");
                     }
-                    startActivity(intent1);
 
-                    startActivity(intent2);
-                }
+                startActivity(intent1);
+
+                startActivity(intent2);
+
+                }*/
+
             }
         });
 
