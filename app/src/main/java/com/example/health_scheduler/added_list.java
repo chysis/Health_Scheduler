@@ -25,7 +25,7 @@ import java.util.List;
 public class added_list extends AppCompatActivity {
 
     PieChart pieChart;
-    int[] colorArr = new int[] {Color.RED,Color.GREEN,Color.BLUE,Color.LTGRAY,Color.CYAN};
+    int[] colorArr = new int[] {Color.RED,Color.GREEN,Color.BLUE,Color.LTGRAY,Color.CYAN,Color.YELLOW};
     int arm=0, chest=0, back=0, shoulder=0, leg=0, core=0, sum;
     List<Integer> Array = new ArrayList<>();
 
@@ -36,13 +36,7 @@ public class added_list extends AppCompatActivity {
 
         pieChart = (PieChart)findViewById(R.id.piechart);
 
-        PieDataSet pieDataSet = new PieDataSet(data1(), "부위별 전체 운동비율");
-        pieDataSet.setColors(colorArr);
 
-        PieData pieData = new PieData(pieDataSet);
-
-        pieChart.setData(pieData);
-        pieChart.invalidate();
 
 
         final ListView exListView ;
@@ -879,6 +873,13 @@ public class added_list extends AppCompatActivity {
             public void onClick(View v){
                 //Integer count = adapter.getCount();
                 //adapter
+                PieDataSet pieDataSet = new PieDataSet(data1(), "부위별 전체 운동비율");
+                pieDataSet.setColors(colorArr);
+
+                PieData pieData = new PieData(pieDataSet);
+
+                pieChart.setData(pieData);
+                pieChart.invalidate();
             }
         });
 
@@ -1040,7 +1041,7 @@ public class added_list extends AppCompatActivity {
 
     private ArrayList<PieEntry> data1() {
         ArrayList<PieEntry> datavalue = new ArrayList<>();
-        sum=arm+chest+back+shoulder+core+leg+1;
+        sum=arm+chest+back+shoulder+core+leg;
 
         datavalue.add(new PieEntry((arm/sum)*100, "팔"));
         datavalue.add(new PieEntry((shoulder/sum)*100, "어깨"));

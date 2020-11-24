@@ -71,7 +71,7 @@ public class exercise_display extends AppCompatActivity {
         i++;
 
         final Integer a = i;
-        
+
         final int number1[] = number;
         final int Asum = sum;
 

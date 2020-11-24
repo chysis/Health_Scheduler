@@ -3,6 +3,7 @@ package com.example.health_scheduler;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Button;
 import android.widget.ImageButton;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -18,12 +19,21 @@ public class home_ex_list_arm extends AppCompatActivity {
         ImageButton button2=findViewById(R.id.btnHamCurl);
         ImageButton button3=findViewById(R.id.btnBicepsCurl2);
         ImageButton button4=findViewById(R.id.btnTriExten);
+        Button button1 = findViewById(R.id.addedList);
 
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent=new Intent(getApplicationContext(), ex_dumbbell_curl.class);
                 startActivity(intent);
+            }
+        });
+
+        button1.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View v) {
+                Intent intent1=new Intent(getApplicationContext(), added_list.class);
+                startActivity(intent1);
             }
         });
 
