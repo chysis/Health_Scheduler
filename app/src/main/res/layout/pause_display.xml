@@ -31,15 +31,16 @@
         app:layout_constraintTop_toBottomOf="@+id/pauseDisplay"
         app:layout_constraintVertical_bias="0.39" />
 
-    <Button
-        android:id="@+id/btn_goto_ex"
+    <TextView
+        android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="108dp"
-        android:layout_marginEnd="80dp"
-        android:text="다음"
+        android:text="운동에도 적절한 휴식이 필요합니다."
+        android:textSize="20sp"
+        android:textColor="@android:color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/count_txt" />
-
 
 </androidx.constraintlayout.widget.ConstraintLayout>
