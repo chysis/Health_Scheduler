@@ -889,8 +889,10 @@ public class added_list extends AppCompatActivity {
                 Intent intent1 = new Intent(getApplicationContext(), exercise_display.class);
                 Intent intent2 = new Intent(getApplicationContext(), pause_display.class);
                 Integer a = exListView.getCount();
+                int aa = exListView.getCount();
                 Toast.makeText(getApplicationContext(),a.toString()+"개",Toast.LENGTH_SHORT).show();
                 intent1.putExtra("number",number);
+                intent1.putExtra("sum",aa);
                 startActivity(intent1);
                 /*TextView textView2 = ((exercise_display)exercise_display.context_main).textView;
                 Button next = ((exercise_display)exercise_display.context_main).btnNext;

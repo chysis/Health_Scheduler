@@ -11,7 +11,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".ex_split_squat"/>
+        <activity android:name=".end_ex_display"></activity>
+        <activity android:name=".ex_split_squat" />
         <activity android:name=".ex_squat" />
         <activity android:name=".ex_lunge" />
         <activity android:name=".ex_lying_leg_curl_db" />
@@ -21,12 +22,12 @@
         <activity android:name=".home_ex_list_chest" />
         <activity android:name=".home_ex_list_shoulder" />
         <activity android:name=".home_ex_list_arm" />
-        <activity android:name=".home_ex_list_back"/>
-        <activity android:name=".home_ex_list_core"/>
-        <activity android:name=".ex_abdominal_crunch"/>
-        <activity android:name=".ex_abdominal_double_crunch"/>
+        <activity android:name=".home_ex_list_back" />
+        <activity android:name=".home_ex_list_core" />
+        <activity android:name=".ex_abdominal_crunch" />
+        <activity android:name=".ex_abdominal_double_crunch" />
         <activity android:name=".ex_barbell_squat" />
-        <activity android:name=".ex_bridge"/>
+        <activity android:name=".ex_bridge" />
         <activity android:name=".ex_leg_press" />
         <activity android:name=".ex_leg_curl" />
         <activity android:name=".ex_hanging_knee_raise" />
@@ -39,7 +40,7 @@
         <activity android:name=".ex_list_shoulder" />
         <activity android:name=".added_list" />
         <activity android:name=".ex_bentover_barbell_row" />
-        <activity android:name=".ex_bentover_dumbbell_row"/>
+        <activity android:name=".ex_bentover_dumbbell_row" />
         <activity android:name=".ex_bench_press" />
         <activity android:name=".ex_bench_throw" />
         <activity android:name=".ex_chest_press_db" />
@@ -49,29 +50,29 @@
         <activity android:name=".ex_decline_bench_press" />
         <activity android:name=".ex_dumbbell_diagonal_raise" />
         <activity android:name=".ex_dumbbell_front_raise" />
-        <activity android:name=".ex_dumbbell_fly"/>
+        <activity android:name=".ex_dumbbell_fly" />
         <activity android:name=".ex_chin_up" />
         <activity android:name=".ex_dumbbell_row" />
-        <activity android:name=".ex_elbow_to_knee_crunch"/>
-        <activity android:name=".ex_knee_tuck"/>
+        <activity android:name=".ex_elbow_to_knee_crunch" />
+        <activity android:name=".ex_knee_tuck" />
         <activity android:name=".ex_lateral_raise" />
         <activity android:name=".ex_dumbbell_curl" />
         <activity android:name=".ex_hammer_curl" />
         <activity android:name=".ex_biceps_curl" />
         <activity android:name=".ex_pull_up" />
-        <activity android:name=".ex_push_up"/>
-        <activity android:name=".ex_pilates_hundreds"/>
-        <activity android:name=".ex_plank"/>
+        <activity android:name=".ex_push_up" />
+        <activity android:name=".ex_pilates_hundreds" />
+        <activity android:name=".ex_plank" />
         <activity android:name=".ex_military_press" />
         <activity android:name=".ex_reverse_fly" />
         <activity android:name=".ex_shoulder_press" />
         <activity android:name=".ex_shoulder_shrugs" />
-        <activity android:name=".ex_scapular_retraction"/>
-        <activity android:name=".ex_single_leg_deadlift"/>
-        <activity android:name=".ex_seated_band_row"/>
+        <activity android:name=".ex_scapular_retraction" />
+        <activity android:name=".ex_single_leg_deadlift" />
+        <activity android:name=".ex_seated_band_row" />
         <activity android:name=".ex_upright_row" />
         <activity android:name=".ex_seated_row" />
-        <activity android:name=".ex_side_lying_lateral_raise"/>
+        <activity android:name=".ex_side_lying_lateral_raise" />
         <activity android:name=".ex_triceps_extension_bb" />
         <activity android:name=".ex_triceps_extension_db" />
         <activity android:name=".ex_triceps_extension_mc" />
@@ -80,13 +81,14 @@
         <activity android:name=".home_choose_part" />
         <activity android:name=".choose_place" />
         <activity android:name=".calendar_main" />
-        <activity android:name=".pause_display"/>
-        <activity android:name=".exercise_display"/>
+        <activity android:name=".pause_display" />
+        <activity android:name=".exercise_display" />
         <activity android:name=".information" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-                <action android:name="android.intent.action.VIEW"/>
+                <action android:name="android.intent.action.VIEW" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>

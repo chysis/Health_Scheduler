@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".end_ex_display">
+
+    <TextView
+        android:id="@+id/end_ex_title"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@android:color/holo_blue_light"
+        android:gravity="center"
+        android:text="운동 종료"
+        android:textColor="@android:color/black"
+        android:textSize="25sp"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_record"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="300dp"
+        android:text="캘린더에 기록"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/end_ex_title" />
+
+    <Button
+        android:id="@+id/btn_to_main"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="400dp"
+        android:text="시작화면"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/end_ex_title" />
+
+    <Button
+        android:id="@+id/btn_to_cal"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="500dp"
+        android:text="캘린더"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/end_ex_title" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
