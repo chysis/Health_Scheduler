@@ -5,6 +5,7 @@ import android.content.Intent;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.AdapterView;
 import android.widget.Button;
 import android.widget.ListView;
 import android.widget.Toast;
@@ -50,6 +51,7 @@ public class added_list extends AppCompatActivity {
 
         final Button add = (Button) findViewById(R.id.btnAdd);
         final Button del = (Button) findViewById(R.id.btnDelete);
+        final Button btn_refresh = (Button) findViewById(R.id.btn_refresh);
 
         // number배열에 운동 번호 저장 (운동종류)
         final int number[] = new int[100];
@@ -865,11 +867,41 @@ public class added_list extends AppCompatActivity {
             }
         });
 
+        /*
         del.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v){
-                //Integer count = adapter.getCount();
-                //adapter
+                exListView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+                    @Override
+                    public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
+                        int count, checked ;
+                        count = adapter.getCount() ;
+
+                        if (count > 0) {
+                            // 현재 선택된 아이템의 position 획득.
+                            checked = exListView.getCheckedItemPosition();
+
+                            if (checked > -1 && checked < count) {
+                                // 아이템 삭제
+                                adapter.remove(checked) ;
+
+                                // listview 선택 초기화.
+                                exListView.clearChoices();
+
+                                // listview 갱신.
+                                adapter.notifyDataSetChanged();
+
+                            }
+                });
+
+            }
+        });
+
+         */
+
+        btn_refresh.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
                 PieDataSet pieDataSet = new PieDataSet(data1(), "부위별 전체 운동비율");
                 pieDataSet.setColors(colorArr);
 
@@ -879,6 +911,8 @@ public class added_list extends AppCompatActivity {
                 pieChart.invalidate();
             }
         });
+
+
 
         Button btn_to_exstart = findViewById(R.id.btnStart);
         btn_to_exstart.setOnClickListener(new View.OnClickListener() {
@@ -1043,12 +1077,12 @@ public class added_list extends AppCompatActivity {
         ArrayList<PieEntry> datavalue = new ArrayList<>();
         sum=arm+chest+back+shoulder+core+leg;
 
-        datavalue.add(new PieEntry((arm/sum)*100, "팔"));
-        datavalue.add(new PieEntry((shoulder/sum)*100, "어깨"));
-        datavalue.add(new PieEntry((chest/sum)*100, "가슴"));
-        datavalue.add(new PieEntry((core/sum)*100, "코어"));
-        datavalue.add(new PieEntry((leg/sum)*100, "다리"));
-        datavalue.add(new PieEntry((back/sum)*100, "등"));
+        datavalue.add(new PieEntry(arm, "팔"));
+        datavalue.add(new PieEntry(shoulder, "어깨"));
+        datavalue.add(new PieEntry(chest, "가슴"));
+        datavalue.add(new PieEntry(core, "코어"));
+        datavalue.add(new PieEntry(leg, "다리"));
+        datavalue.add(new PieEntry(back, "등"));
 
         return datavalue;
     }

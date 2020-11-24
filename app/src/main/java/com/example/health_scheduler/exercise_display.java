@@ -243,7 +243,7 @@ public class exercise_display extends YouTubeBaseActivity {
         final int number1[] = number;
         final int Asum = sum;
 
-        // a값이 잘 변하는지 확인하기 위한변수
+        // sum값이 잘 변하는지 확인하기 위한변수
         final String test;
         test = sum.toString();
         //
@@ -252,7 +252,7 @@ public class exercise_display extends YouTubeBaseActivity {
         btnNext.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(getApplicationContext(),test,Toast.LENGTH_SHORT).show();
+                //Toast.makeText(getApplicationContext(),test,Toast.LENGTH_SHORT).show(); //sum값확인
 
                 // 운동이 모두 끝나면 운동종료화면으로
                 if (a==Asum){
