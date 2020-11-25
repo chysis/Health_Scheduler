@@ -19,7 +19,7 @@ public class exercise_display extends YouTubeBaseActivity {
     YouTubePlayer player;
 
     private static String API_KEY="AIzaSyBrEvSjzDIdr18Sy1e3E508vpYS8FYMiUo";
-    private static String videoId="Z0e0ron8nDM";
+    private static String videoId;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -57,179 +57,232 @@ public class exercise_display extends YouTubeBaseActivity {
             case 1:
             case 101:
                 textViewt.setText("덤벨컬");
+                videoId = "XE_pHwbst04";
                 break;
             case 2:
             case 102:
                 textViewt.setText("해머컬");
+                videoId = "TwD-YGVP4Bk";
                 break;
             case 3:
             case 103:
                 textViewt.setText("바이셉컬");
+                videoId = "ecEm4AQplVY";
                 break;
             case 4:
                 textViewt.setText("트라이셉스 익스텐션(바벨)");
+                videoId = "4re6CJ0XNF8";
                 break;
             case 5:
             case 104:
                 textViewt.setText("트라이셉스 익스텐션(덤벨)");
+                videoId = "YbX7Wd8jQ-Q";
                 break;
             case 6:
                 textViewt.setText("트라이셉스 익스텐션(머신)");
+                videoId = "GzmlxvSFE7A";
                 break;
 
             case 7:
                 textViewt.setText("벤치 프레스");
+                videoId = "rT7DgCr-3pg";
                 break;
             case 9:
                 textViewt.setText("벤치 스로우");
+                videoId = "Z0e0ron8nDM";
                 break;
             case 10:
                 textViewt.setText("체스트 프레스(덤벨)");
+                videoId = "VmB1G1K7v94";
                 break;
             case 11:
                 textViewt.setText("체스트 프레스(머신)");
+                videoId = "xUm0BiZCWlQ";
                 break;
             case 12:
                 textViewt.setText("디클라인 벤치프레스");
+                videoId = "LfyQBUKR8SE";
                 break;
             case 13:
                 textViewt.setText("인클라인 벤치프레스");
+                videoId = "SrqOu55lrYU";
                 break;
 
             case 15:
             case 109:
                 textViewt.setText("덤벨 대각선 레이즈");
+                videoId = "tPVHvHWGeYc";
                 break;
             case 16:
             case 110:
                 textViewt.setText("덤벨 프론트 레이즈");
+                videoId = "-t7fuZ0KhDA";
                 break;
             case 17:
             case 111:
                 textViewt.setText("레터럴 레이즈");
+                videoId = "3VcKaXpzqRo";
                 break;
             case 18:
                 textViewt.setText("밀리터리 프레스");
+                videoId = "2yjwXTZQDDI";
                 break;
             case 19:
                 textViewt.setText("리버스 플라이");
+                videoId = "JoCRRZ3zRtI";
                 break;
             case 20:
                 textViewt.setText("숄더 프레스");
+                videoId = "qEwKCR5JCog";
                 break;
             case 21:
                 textViewt.setText("업라이트 로우");
+                videoId = "amCU-ziHITM";
                 break;
             case 22:
             case 113:
                 textViewt.setText("숄더 슈러그");
+                videoId = "cJRVVxmytaM";
                 break;
 
             case 24:
                 textViewt.setText("벤치 풀");
+                videoId = "CL-lV9E94Fs";
                 break;
             case 25:
                 textViewt.setText("벤트오버 바벨로우");
+                videoId = "vT2GjY_Umpw";
                 break;
             case 26:
                 textViewt.setText("친 업");
+                videoId = "brhRXlOhsAM";
                 break;
             case 27:
                 textViewt.setText("풀 업");
+                videoId = "eGo4IYlbE5g";
                 break;
             case 28:
                 textViewt.setText("랫 풀다운");
+                videoId = "CAwf7n6Luuc";
                 break;
             case 29:
                 textViewt.setText("시티드 로우");
+                videoId = "GZbfZ033f74";
                 break;
             case 30:
                 textViewt.setText("덤벨 로우");
+                videoId = "roCP6wCXPqo";
                 break;
 
             case 32:
                 textViewt.setText("데드 리프트");
+                videoId = "op9kVnSso6Q";
                 break;
             case 33:
                 textViewt.setText("행잉 니 레이즈");
+                videoId = "fLbZrF6MZuE";
                 break;
 
             case 35:
                 textViewt.setText("레그 컬");
+                videoId = "qhFohD5iL98";
                 break;
             case 36:
                 textViewt.setText("레그 프레스");
+                videoId = "IZxyjW7MPJQ";
                 break;
             case 37:
                 textViewt.setText("바벨 스쿼트");
+                videoId = "qy_VBX2KWDA";
                 break;
 
             case 106:
                 textViewt.setText("덤벨 플라이");
+                videoId = "eozdVDA78K0";
                 break;
             case 107:
                 textViewt.setText("푸쉬 업");
+                videoId = "-_DUjHxgmWk";
                 break;
 
             case 112:
                 textViewt.setText("사이드 라잉 래터럴 레이즈");
+                videoId = "NnHZKlP09ww";
                 break;
 
             case 115:
                 textViewt.setText("풀 업");
+                videoId = "eGo4IYlbE5g";
                 break;
             case 116:
                 textViewt.setText("벤트오버 덤벨로우");
+                videoId = "pYcpY20QaE8";
                 break;
             case 117:
                 textViewt.setText("스카퓰라 리트랙션");
+                videoId = "WklUZWulQao";
                 break;
 
             case 119:
                 textViewt.setText("업도미널 크런치");
+                videoId = "Xyd_fa5zoEU";
                 break;
             case 120:
                 textViewt.setText("더블 크런치");
+                videoId = "_DCnI4B6T6s";
                 break;
             case 121:
                 textViewt.setText("브릿지");
+                videoId = "DbzIrWjs4lw";
                 break;
             case 122:
                 textViewt.setText("싱글 레그 데드리프트");
+                videoId = "QByYAaoVUSs";
                 break;
             case 123:
                 textViewt.setText("엘보우-투-니 크런치");
+                videoId = "7xEWEc8rzyU";
                 break;
             case 124:
                 textViewt.setText("행잉 니 레이즈");
+                videoId = "fLbZrF6MZuE";
                 break;
             case 125:
                 textViewt.setText("니 턱");
+                videoId = "HR_1AqBmVAU";
                 break;
             case 126:
                 textViewt.setText("헌드레드");
+                videoId = "uWfOVDqPtuA";
                 break;
             case 127:
                 textViewt.setText("플랭크");
+                videoId = "B--6YfhmBGc";
                 break;
 
             case 129:
                 textViewt.setText("카프 레이즈");
+                videoId = "QJ_k05723bs";
                 break;
             case 130:
                 textViewt.setText("레터럴 런지");
+                videoId = "rvqLVxYqEvo";
                 break;
             case 131:
                 textViewt.setText("라잉 레그컬(덤벨)");
+                videoId = "ZHlBSI6JPsA";
                 break;
             case 132:
                 textViewt.setText("런지");
+                videoId = "NZcwOWUkBt4";
                 break;
             case 133:
                 textViewt.setText("맨몸 스쿼트");
+                videoId = "9WhpAVOSyl8";
                 break;
             case 134:
                 textViewt.setText("스플릿 스쿼트");
+                videoId = "2C-uNgKwPLE";
                 break;
 
             default:
