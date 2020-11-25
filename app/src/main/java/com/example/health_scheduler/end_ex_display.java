@@ -31,6 +31,7 @@ public class end_ex_display extends AppCompatActivity {
             public void onClick(View view) {
                 Intent intent = new Intent(getApplicationContext(),calendar_main.class);
                 startActivity(intent);
+                finish();
             }
         });
 

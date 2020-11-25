@@ -24,7 +24,7 @@ import java.util.List;
 public class added_list extends AppCompatActivity {
 
     PieChart pieChart;
-    int[] colorArr = new int[] {Color.RED,Color.GREEN,Color.BLUE,Color.LTGRAY,Color.CYAN,Color.YELLOW};
+    int[] colorArr = new int[] {Color.RED,Color.GREEN,Color.BLUE,Color.LTGRAY,Color.CYAN,Color.BLACK};
     int arm=0, chest=0, back=0, shoulder=0, leg=0, core=0, sum;
     List<Integer> Array = new ArrayList<>();
 
@@ -34,9 +34,6 @@ public class added_list extends AppCompatActivity {
         setContentView(R.layout.activity_added_list);
 
         pieChart = (PieChart)findViewById(R.id.piechart);
-
-
-
 
         final ListView exListView ;
         final ListViewAdapter adapter;
@@ -74,12 +71,12 @@ public class added_list extends AppCompatActivity {
                             case 0:
                                 AlertDialog.Builder alertDialog1 = new AlertDialog.Builder(added_list.this);
                                 alertDialog1.setTitle("운동선택");
-                                String[] items = {"<팔 운동>", "덤벨컬", "해머컬", "바이셉컬", "트라이셉스 익스텐션(바벨)", "트라이셉스 익스텐션(덤벨)", "트라이셉스 익스텐션(머신)",
-                                        "<가슴 운동>", "벤치 프레스", "벤치 스로우", "체스트 프레스(덤벨)", "체스트 프레스(머신)", "디클라인 벤치프레스", "인클라인 벤치프레스",
-                                        "<어깨 운동>", "덤벨 대각선 레이즈", "덤벨 프론트 레이즈", "레터럴 레이즈", "밀리터리 프레스", "리버스 플라이", "숄더 프레스", "업라이트 로우", "숄더 슈러그",
-                                        "<등 운동>", "벤치 풀", "벤트오버 바벨로우", "친 업", "풀 업", "랫 풀다운", "시티드 로우", "덤벨 로우",
-                                        "<코어 운동>", "데드 리프트", "행잉 니 레이즈",
-                                        "<다리 운동>", "레그 컬", "레그 프레스", "바벨 스쿼트"};
+                                String[] items = {"--------팔 운동--------", "덤벨컬", "해머컬", "바이셉컬", "트라이셉스 익스텐션(바벨)", "트라이셉스 익스텐션(덤벨)", "트라이셉스 익스텐션(머신)",
+                                        "-------가슴 운동-------", "벤치 프레스", "벤치 스로우", "체스트 프레스(덤벨)", "체스트 프레스(머신)", "디클라인 벤치프레스", "인클라인 벤치프레스",
+                                        "-------어깨 운동-------", "덤벨 대각선 레이즈", "덤벨 프론트 레이즈", "레터럴 레이즈", "밀리터리 프레스", "리버스 플라이", "숄더 프레스", "업라이트 로우", "숄더 슈러그",
+                                        "--------등 운동--------", "벤치 풀", "벤트오버 바벨로우", "친 업", "풀 업", "랫 풀다운", "시티드 로우", "덤벨 로우",
+                                        "-------코어 운동-------", "데드 리프트", "행잉 니 레이즈",
+                                        "-------다리 운동-------", "레그 컬", "레그 프레스", "바벨 스쿼트"};
                                 /*
                                         "<팔 운동>", "덤벨컬0","해머컬1","바이셉컬2","트라이셉스 익스텐션(바벨)3","트라이셉스 익스텐션(덤벨)4","트라이셉스 익스텐션(머신)5",
                                         "<가슴 운동>", "벤치 프레스10","벤치 스로우11", "체스트 프레스(덤벨)12","체스트 프레스(머신)13","디클라인 벤치프레스14","인클라인 벤치프레스15",
@@ -501,12 +498,12 @@ public class added_list extends AppCompatActivity {
                             case 1:
                                 AlertDialog.Builder alertDialog2 = new AlertDialog.Builder(added_list.this);
                                 alertDialog2.setTitle("운동선택");
-                                String[] items2 = {"<팔 운동>", "덤벨컬","해머컬","바이셉컬","트라이셉스 익스텐션(덤벨)",
-                                        "<가슴 운동>", "덤벨 플라이","푸쉬 업",
-                                        "<어깨 운동>", "덤벨 대각선 레이즈","덤벨 프론트 레이즈","레터럴 레이즈","사이드 라잉 레터럴 레이즈", "숄더 슈러그",
-                                        "<등 운동>", "풀 업", "벤트오버 덤벨로우", "스카퓰라 리트랙션",
-                                        "<코어 운동>", "업도미널 크런치", "더블 크런치", "브릿지", "싱글 레그 데드리프트", "엘보우-투-니 크런치", "행잉 니 레이즈", "니 턱", "헌드레드", "플랭크",
-                                        "<다리 운동>", "카프 레이즈", "레터럴 런지", "라잉 레그컬(덤벨)", "런지", "맨몸 스쿼트", "스플릿 스쿼트"};
+                                String[] items2 = {"--------팔 운동--------", "덤벨컬","해머컬","바이셉컬","트라이셉스 익스텐션(덤벨)",
+                                        "-------가슴 운동-------", "덤벨 플라이","푸쉬 업",
+                                        "-------어깨 운동-------", "덤벨 대각선 레이즈","덤벨 프론트 레이즈","레터럴 레이즈","사이드 라잉 레터럴 레이즈", "숄더 슈러그",
+                                        "--------등 운동--------", "풀 업", "벤트오버 덤벨로우", "스카퓰라 리트랙션",
+                                        "-------코어 운동-------", "업도미널 크런치", "더블 크런치", "브릿지", "싱글 레그 데드리프트", "엘보우-투-니 크런치", "행잉 니 레이즈", "니 턱", "헌드레드", "플랭크",
+                                        "-------다리 운동-------", "카프 레이즈", "레터럴 런지", "라잉 레그컬(덤벨)", "런지", "맨몸 스쿼트", "스플릿 스쿼트"};
                                 /*
                                         "<팔 운동>", "덤벨컬100","해머컬101","바이셉컬102","트라이셉스 익스텐션(덤벨)103",
                                         "<가슴 운동>", "덤벨 플라이200","푸쉬 업201",
@@ -922,150 +919,11 @@ public class added_list extends AppCompatActivity {
                 Integer a = exListView.getCount();
                 int aa = exListView.getCount();
                 if(a!=0){
-                    Toast.makeText(getApplicationContext(),a.toString()+"개",Toast.LENGTH_SHORT).show();
+                    Toast.makeText(getApplicationContext(),a.toString()+"루틴",Toast.LENGTH_SHORT).show();
                     intent1.putExtra("number",number);
                     intent1.putExtra("sum",aa);
                     startActivity(intent1);
                 }
-
-                /*TextView textView2 = ((exercise_display)exercise_display.context_main).textView;
-                Button next = ((exercise_display)exercise_display.context_main).btnNext;
-
-                for(int i=0;i<Array.size();i++) {
-
-                    switch (Array.get(i)) {
-                        case 0:
-                            textView2.setText("<Gym> 덤벨 컬");
-                        case 1:
-                            textView2.setText("<Gym> 해머 컬");
-                        case 2:
-                            textView2.setText("<Gym> 바이셉스 컬");
-                        case 3:
-                            textView2.setText("<Gym> 트라이셉스 익스텐션(바벨)");
-                        case 4:
-                            textView2.setText("<Gym> 트라이셉스 익스텐션(덤벨)");
-                        case 5:
-                            textView2.setText("<Gym> 트라이셉스 익스텐션(머신)");
-                        case 10:
-                            textView2.setText("<Gym> 벤치 프레스");
-                        case 11:
-                            textView2.setText("<Gym> 벤치 스로우");
-                        case 12:
-                            textView2.setText("<Gym> 체스트 프레스(덤벨)");
-                        case 13:
-                            textView2.setText("<Gym> 체스트 프레스(머신)");
-                        case 14:
-                            textView2.setText("<Gym> 디클라인 벤치 프레스");
-                        case 15:
-                            textView2.setText("<Gym> 인클라인 벤치 프레스");
-                        case 20:
-                            textView2.setText("<Gym> 덤벨 대각선 레이즈");
-                        case 21:
-                            textView2.setText("<Gym> 덤벨 프론트 레이즈");
-                        case 22:
-                            textView2.setText("<Gym> 레터럴 레이즈");
-                        case 23:
-                            textView2.setText("<Gym> 밀리터리 프레스");
-                        case 24:
-                            textView2.setText("<Gym> 리버스 플라이");
-                        case 25:
-                            textView2.setText("<Gym> 숄더 프레스");
-                        case 26:
-                            textView2.setText("<Gym> 업라이트 로우");
-                        case 27:
-                            textView2.setText("<Gym> 숄더 슈러그");
-                        case 30:
-                            textView2.setText("<Gym> 벤치 풀");
-                        case 31:
-                            textView2.setText("<Gym> 벤트오버 바벨로우");
-                        case 32:
-                            textView2.setText("<Gym> 친 업");
-                        case 33:
-                            textView2.setText("<Gym> 풀 업");
-                        case 34:
-                            textView2.setText("<Gym> 랫 풀다운");
-                        case 35:
-                            textView2.setText("<Gym> 시티드 로우");
-                        case 36:
-                            textView2.setText("<Gym> 덤벨 로우");
-                        case 40:
-                            textView2.setText("<Gym> 데드 리프트");
-                        case 41:
-                            textView2.setText("<Gym> 행잉 니 레이즈");
-                        case 50:
-                            textView2.setText("<Gym> 레그 컬");
-                        case 51:
-                            textView2.setText("<Gym> 레그 프레스");
-                        case 52:
-                            textView2.setText("<Gym> 바벨 스쿼트");
-                        case 100:
-                            textView2.setText("<Home> 덤벨 컬");
-                        case 101:
-                            textView2.setText("<Home> 해머 컬");
-                        case 102:
-                            textView2.setText("<Home> 바이셉 컬");
-                        case 103:
-                            textView2.setText("<Home> 트라이셉스 익스텐션(덤벨)");
-                        case 200:
-                            textView2.setText("<Home> 덤벨 플라이");
-                        case 201:
-                            textView2.setText("<Home> 푸쉬 업");
-                        case 300:
-                            textView2.setText("<Home> 덤벨 대각선 레이즈");
-                        case 301:
-                            textView2.setText("<Home> 덤벨 프론트 레이즈");
-                        case 302:
-                            textView2.setText("<Home> 레터럴 레이즈");
-                        case 303:
-                            textView2.setText("<Home> 사이드 라잉 레터럴 레이즈");
-                        case 304:
-                            textView2.setText("<Home> 숄더 슈러그");
-                        case 400:
-                            textView2.setText("<Home> 풀 업");
-                        case 401:
-                            textView2.setText("<Home> 벤트오버 덤벨로우");
-                        case 402:
-                            textView2.setText("<Home> 스카퓰라 리트랙션");
-                        case 403:
-                            textView2.setText("<Home> 시티드 밴드로우");
-                        case 500:
-                            textView2.setText("<Home> 업도미널 크런치");
-                        case 501:
-                            textView2.setText("<Home> 더블 크런치");
-                        case 502:
-                            textView2.setText("<Home> 브릿지");
-                        case 503:
-                            textView2.setText("<Home> 싱글 레그 데드리프트");
-                        case 504:
-                            textView2.setText("<Home> 엘보우-투-니 크런치");
-                        case 505:
-                            textView2.setText("<Home> 행잉 니 레이즈");
-                        case 506:
-                            textView2.setText("<Home> 니 턱");
-                        case 507:
-                            textView2.setText("<Home> 헌드레드");
-                        case 508:
-                            textView2.setText("<Home> 플랭크");
-                        case 600:
-                            textView2.setText("<Home> 카프 레이즈");
-                        case 601:
-                            textView2.setText("<Home> 레터럴 런지");
-                        case 602:
-                            textView2.setText("<Home> 덤벨 라잉 레그 컬");
-                        case 603:
-                            textView2.setText("<Home> 런지");
-                        case 604:
-                            textView2.setText("<Home> 스쿼트");
-                        case 605:
-                            textView2.setText("<Home> 스플릿 스쿼트");
-                    }
-
-                startActivity(intent1);
-
-                startActivity(intent2);
-
-                }*/
-
             }
         });
 
