@@ -5,7 +5,6 @@ import android.content.Intent;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.AdapterView;
 import android.widget.Button;
 import android.widget.ListView;
 import android.widget.Toast;
@@ -89,7 +88,7 @@ public class added_list extends AppCompatActivity {
                                         "<코어 운동>", "데드 리프트40", "행잉 니 레이즈41",
                                         "<다리 운동>", "레그 컬50", "레그 프레스51", "바벨 스쿼트52"
                                  */
-                                int checkedItem = 1;
+                                int checkedItem = -1;
                                 alertDialog1.setSingleChoiceItems(items, checkedItem, new DialogInterface.OnClickListener() {
                                     @Override
                                     public void onClick(DialogInterface dialog, int which) {
@@ -518,7 +517,7 @@ public class added_list extends AppCompatActivity {
                                  */
 
 
-                                int checkedItem2 = 1;
+                                int checkedItem2 = -1;
                                 alertDialog2.setSingleChoiceItems(items2, checkedItem2, new DialogInterface.OnClickListener() {
                                     @Override
                                     public void onClick(DialogInterface dialog, int which) {

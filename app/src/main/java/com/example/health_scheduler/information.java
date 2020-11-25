@@ -51,9 +51,8 @@ public class information extends AppCompatActivity {
             public void onClick(View v){
                 new AlertDialog.Builder(information.this)
                         .setTitle("TECHNOLOGY")
-                        .setMessage("오픈소스(github)에서 material calendar, piechart 이용.\n" +
-                                "https://github.com/PhilJay/MPAndroidChart/tree/master/MPChartLib/src/main/java/com/github/mikephil/charting \n" +
-                                "https://github.com/prolificinteractive/material-calendarview")
+                        .setMessage("오픈소스(github)에서 piechart 이용.\n" +
+                                "https://github.com/PhilJay/MPAndroidChart/tree/master/MPChartLib/src/main/java/com/github/mikephil/charting")
                         .setNeutralButton("닫기", new DialogInterface.OnClickListener(){
                             @Override
                             public void onClick(DialogInterface dialog, int which){}
